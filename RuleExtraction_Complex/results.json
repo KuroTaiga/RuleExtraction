@@ -1,0 +1,1642 @@
+{
+    "exercises": [
+        {
+            "activity": "dumbbell alternating pendlay row",
+            "body_landmarks": {
+                "left_foot": {
+                    "position": ["flat"],
+                    "motion": ["stationary"]
+                },
+                "right_foot": {
+                    "position": ["flat"],
+                    "motion": ["horizontal inward"]
+                },
+                "left_hip": {
+                    "position": ["hip hinge"],
+                    "motion": ["stationary"]
+                },
+                "right_hip": {
+                    "position": ["upright"],
+                    "motion": ["stationary"]
+                },
+                "torso": {
+                    "position": ["leaning forward"],
+                    "motion": ["stationary"]
+                },
+                "left_hand": {
+                    "position": ["vertical upward"],
+                    "motion": ["row"]
+                },
+                "right_hand": {
+                    "position": ["horizontal inward"],
+                    "motion": ["stationary"]
+                },
+                "left_elbow": {
+                    "position": ["slightly flexed"],
+                    "motion": ["flexion"]
+                },
+                "right_elbow": {
+                    "position": ["flexed"],
+                    "motion": ["flexion"]
+                },
+                "left_shoulder": {
+                    "position": ["neutral"],
+                    "motion": ["scapular protraction"]
+                },
+                "right_shoulder": {
+                    "position": ["neutral"],
+                    "motion": ["scapular retraction"]
+                },
+                "left_knee": {
+                    "position": ["bent"],
+                    "motion": ["stationary"]
+                },
+                "right_knee": {
+                    "position": ["bent"],
+                    "motion": ["stationary"]
+                }
+            },
+            "equipment": {
+                "type": ["dumbbell"]
+            },
+            "other": {
+                "mirrored": "true"
+            }
+        },
+        {
+            "activity": "dumbbell bench press",
+            "body_landmarks": {
+                "left_foot": {
+                    "position": ["on ground"],
+                    "motion": ["stationary"]
+                },
+                "right_foot": {
+                    "position": ["flat"],
+                    "motion": ["stationary"]
+                },
+                "left_hip": {
+                    "position": ["seated"],
+                    "motion": ["stationary"]
+                },
+                "right_hip": {
+                    "position": ["seated"],
+                    "motion": ["stationary"]
+                },
+                "torso": {
+                    "position": ["leaning forward"],
+                    "motion": ["stationary"]
+                },
+                "left_hand": {
+                    "position": ["horizontal inward"],
+                    "motion": ["vertical upward"]
+                },
+                "right_hand": {
+                    "position": ["horizontal inward"],
+                    "motion": ["vertical downward"]
+                },
+                "left_elbow": {
+                    "position": ["bent at 90 degrees"],
+                    "motion": ["extension"]
+                },
+                "right_elbow": {
+                    "position": ["bent at 90 degrees"],
+                    "motion": ["flexion"]
+                },
+                "left_shoulder": {
+                    "position": ["neutral"],
+                    "motion": ["scapular retraction"]
+                },
+                "right_shoulder": {
+                    "position": ["neutral"],
+                    "motion": ["scapular protraction"]
+                },
+                "left_knee": {
+                    "position": ["flexed"],
+                    "motion": ["stationary"]
+                },
+                "right_knee": {
+                    "position": ["bent at 90 degrees"],
+                    "motion": ["stationary"]
+                }
+            },
+            "equipment": {
+                "type": ["dumbbell"]
+            },
+            "other": {
+                "mirrored": "true"
+            }
+        },
+        {
+            "activity": "dumbbell bulgarian split squat",
+            "body_landmarks": {
+                "left_foot": {
+                    "position": ["on ground"],
+                    "motion": ["stationary"]
+                },
+                "right_foot": {
+                    "position": ["flat"],
+                    "motion": ["stationary"]
+                },
+                "left_hip": {
+                    "position": ["upright"],
+                    "motion": ["stationary"]
+                },
+                "right_hip": {
+                    "position": ["hip hinge"],
+                    "motion": ["extension"]
+                },
+                "torso": {
+                    "position": ["upright"],
+                    "motion": ["stationary"]
+                },
+                "left_hand": {
+                    "position": ["holding equipment"],
+                    "motion": ["stationary"]
+                },
+                "right_hand": {
+                    "position": ["holding equipment"],
+                    "motion": ["stationary"]
+                },
+                "left_elbow": {
+                    "position": ["slightly flexed"],
+                    "motion": ["stationary"]
+                },
+                "right_elbow": {
+                    "position": ["slightly extended"],
+                    "motion": ["stationary"]
+                },
+                "left_shoulder": {
+                    "position": ["neutral"],
+                    "motion": ["stationary"]
+                },
+                "right_shoulder": {
+                    "position": ["retracted"],
+                    "motion": ["stationary"]
+                },
+                "left_knee": {
+                    "position": ["flexed"],
+                    "motion": ["stationary"]
+                },
+                "right_knee": {
+                    "position": ["bent at 90 degrees"],
+                    "motion": ["stationary"]
+                }
+            },
+            "equipment": {
+                "type": ["dumbbell"]
+            },
+            "other": {
+                "mirrored": "true"
+            }
+        },
+        {
+            "activity": "dumbbell calf raise",
+            "body_landmarks": {
+                "left_foot": {
+                    "position": ["flat"],
+                    "motion": ["plantar flexion"]
+                },
+                "right_foot": {
+                    "position": ["on ground"],
+                    "motion": ["plantar flexion"]
+                },
+                "left_hip": {
+                    "position": ["upright"],
+                    "motion": ["stationary"]
+                },
+                "right_hip": {
+                    "position": ["upright"],
+                    "motion": ["stationary"]
+                },
+                "torso": {
+                    "position": ["leaning forward"],
+                    "motion": ["stationary"]
+                },
+                "left_hand": {
+                    "position": ["holding equipment"],
+                    "motion": ["stationary"]
+                },
+                "right_hand": {
+                    "position": ["holding equipment"],
+                    "motion": ["stationary"]
+                },
+                "left_elbow": {
+                    "position": ["slightly flexed"],
+                    "motion": ["stationary"]
+                },
+                "right_elbow": {
+                    "position": ["slightly flexed"],
+                    "motion": ["stationary"]
+                },
+                "left_shoulder": {
+                    "position": ["neutral"],
+                    "motion": ["stationary"]
+                },
+                "right_shoulder": {
+                    "position": ["neutral"],
+                    "motion": ["stationary"]
+                },
+                "left_knee": {
+                    "position": ["flexed"],
+                    "motion": ["stationary"]
+                },
+                "right_knee": {
+                    "position": ["flexed"],
+                    "motion": ["stationary"]
+                }
+            },
+            "equipment": {
+                "type": ["dumbbell"]
+            },
+            "other": {
+                "mirrored": "true"
+            }
+        },
+        {
+            "activity": "dumbbell chest fly",
+            "body_landmarks": {
+                "left_foot": {
+                    "position": ["on ground"],
+                    "motion": ["stationary"]
+                },
+                "right_foot": {
+                    "position": ["flat"],
+                    "motion": ["stationary"]
+                },
+                "left_hip": {
+                    "position": ["upright"],
+                    "motion": ["stationary"]
+                },
+                "right_hip": {
+                    "position": ["upright"],
+                    "motion": ["stationary"]
+                },
+                "torso": {
+                    "position": ["on bench"],
+                    "motion": ["stationary"]
+                },
+                "left_hand": {
+                    "position": ["over chest"],
+                    "motion": ["horizontal outward"]
+                },
+                "right_hand": {
+                    "position": ["over chest"],
+                    "motion": ["horizontal outward"]
+                },
+                "left_elbow": {
+                    "position": ["slightly flexed"],
+                    "motion": ["extension"]
+                },
+                "right_elbow": {
+                    "position": ["slightly flexed"],
+                    "motion": ["extension"]
+                },
+                "left_shoulder": {
+                    "position": ["neutral"],
+                    "motion": ["scapular retraction"]
+                },
+                "right_shoulder": {
+                    "position": ["neutral"],
+                    "motion": ["scapular retraction"]
+                },
+                "left_knee": {
+                    "position": ["bent"],
+                    "motion": ["stationary"]
+                },
+                "right_knee": {
+                    "position": ["bent"],
+                    "motion": ["stationary"]
+                }
+            },
+            "equipment": {
+                "type": ["dumbbell"]
+            },
+            "other": {
+                "mirrored": "true"
+            }
+        },
+        {
+            "activity": "dumbbell curl",
+            "body_landmarks": {
+                "left_foot": {
+                    "position": ["flat"],
+                    "motion": ["stationary"]
+                },
+                "right_foot": {
+                    "position": ["flat"],
+                    "motion": ["stationary"]
+                },
+                "left_hip": {
+                    "position": ["upright"],
+                    "motion": ["stationary"]
+                },
+                "right_hip": {
+                    "position": ["upright"],
+                    "motion": ["stationary"]
+                },
+                "torso": {
+                    "position": ["neutral spine"],
+                    "motion": ["stationary"]
+                },
+                "left_hand": {
+                    "position": ["holding equipment"],
+                    "motion": ["flexion"]
+                },
+                "right_hand": {
+                    "position": ["holding equipment"],
+                    "motion": ["flexion"]
+                },
+                "left_elbow": {
+                    "position": ["close to torso"],
+                    "motion": ["flexion"]
+                },
+                "right_elbow": {
+                    "position": ["close to torso"],
+                    "motion": ["flexion"]
+                },
+                "left_shoulder": {
+                    "position": ["neutral"],
+                    "motion": ["stationary"]
+                },
+                "right_shoulder": {
+                    "position": ["neutral"],
+                    "motion": ["stationary"]
+                },
+                "left_knee": {
+                    "position": ["bent"],
+                    "motion": ["stationary"]
+                },
+                "right_knee": {
+                    "position": ["bent"],
+                    "motion": ["stationary"]
+                }
+            },
+            "equipment": {
+                "type": ["dumbbell"]
+            },
+            "other": {
+                "mirrored": "true"
+            }
+        },
+        {
+            "activity": "dumbbell decline chest press",
+            "body_landmarks": {
+                "left_foot": {
+                    "position": ["flat"],
+                    "motion": ["stationary"]
+                },
+                "right_foot": {
+                    "position": ["flat"],
+                    "motion": ["stationary"]
+                },
+                "left_hip": {
+                    "position": ["seated"],
+                    "motion": ["stationary"]
+                },
+                "right_hip": {
+                    "position": ["seated"],
+                    "motion": ["stationary"]
+                },
+                "torso": {
+                    "position": ["upright"],
+                    "motion": ["stationary"]
+                },
+                "left_hand": {
+                    "position": ["over chest"],
+                    "motion": ["vertical upward"]
+                },
+                "right_hand": {
+                    "position": ["over chest"],
+                    "motion": ["vertical downward"]
+                },
+                "left_elbow": {
+                    "position": ["bent at 90 degrees"],
+                    "motion": ["extension"]
+                },
+                "right_elbow": {
+                    "position": ["bent at 90 degrees"],
+                    "motion": ["flexion"]
+                },
+                "left_shoulder": {
+                    "position": ["neutral"],
+                    "motion": ["scapular retraction"]
+                },
+                "right_shoulder": {
+                    "position": ["neutral"],
+                    "motion": ["scapular protraction"]
+                },
+                "left_knee": {
+                    "position": ["bent"],
+                    "motion": ["stationary"]
+                },
+                "right_knee": {
+                    "position": ["bent"],
+                    "motion": ["stationary"]
+                }
+            },
+            "equipment": {
+                "type": ["dumbbell"]
+            },
+            "other": {
+                "mirrored": "true"
+            }
+        },
+        {
+            "activity": "dumbbell decline guillotine bench press",
+            "body_landmarks": {
+                "left_foot": {
+                    "position": ["flat"],
+                    "motion": ["stationary"]
+                },
+                "right_foot": {
+                    "position": ["flat"],
+                    "motion": ["stationary"]
+                },
+                "left_hip": {
+                    "position": ["seated"],
+                    "motion": ["stationary"]
+                },
+                "right_hip": {
+                    "position": ["seated"],
+                    "motion": ["stationary"]
+                },
+                "torso": {
+                    "position": ["leaning backward"],
+                    "motion": ["stationary"]
+                },
+                "left_hand": {
+                    "position": ["over head"],
+                    "motion": ["vertical upward"]
+                },
+                "right_hand": {
+                    "position": ["over head"],
+                    "motion": ["vertical upward"]
+                },
+                "left_elbow": {
+                    "position": ["slightly flexed"],
+                    "motion": ["extension"]
+                },
+                "right_elbow": {
+                    "position": ["slightly flexed"],
+                    "motion": ["extension"]
+                },
+                "left_shoulder": {
+                    "position": ["retracted"],
+                    "motion": ["scapular retraction"]
+                },
+                "right_shoulder": {
+                    "position": ["retracted"],
+                    "motion": ["scapular retraction"]
+                },
+                "left_knee": {
+                    "position": ["bent"],
+                    "motion": ["stationary"]
+                },
+                "right_knee": {
+                    "position": ["bent"],
+                    "motion": ["stationary"]
+                }
+            },
+            "equipment": {
+                "type": ["dumbbell"]
+            },
+            "other": {
+                "mirrored": "true"
+            }
+        },
+        {
+            "activity": "dumbbell decline single arm bench press",
+            "body_landmarks": {
+                "left_foot": {
+                    "position": ["flat"],
+                    "motion": ["stationary"]
+                },
+                "right_foot": {
+                    "position": ["flat"],
+                    "motion": ["stationary"]
+                },
+                "left_hip": {
+                    "position": ["seated"],
+                    "motion": ["stationary"]
+                },
+                "right_hip": {
+                    "position": ["seated"],
+                    "motion": ["stationary"]
+                },
+                "torso": {
+                    "position": ["upright"],
+                    "motion": ["stationary"]
+                },
+                "left_hand": {
+                    "position": ["over chest"],
+                    "motion": ["vertical upward"]
+                },
+                "right_hand": {
+                    "position": ["stationary"],
+                    "motion": ["stationary"]
+                },
+                "left_elbow": {
+                    "position": ["flexed"],
+                    "motion": ["extension"]
+                },
+                "right_elbow": {
+                    "position": ["flexed"],
+                    "motion": ["stationary"]
+                },
+                "left_shoulder": {
+                    "position": ["retracted"],
+                    "motion": ["scapular retraction"]
+                },
+                "right_shoulder": {
+                    "position": ["neutral"],
+                    "motion": ["stationary"]
+                },
+                "left_knee": {
+                    "position": ["bent"],
+                    "motion": ["stationary"]
+                },
+                "right_knee": {
+                    "position": ["bent"],
+                    "motion": ["stationary"]
+                }
+            },
+            "equipment": {
+                "type": ["dumbbell"]
+            },
+            "other": {
+                "mirrored": "true"
+            }
+        },
+        {
+            "activity": "dumbbell decline skullcrusher",
+            "body_landmarks": {
+                "left_foot": {
+                    "position": ["flat"],
+                    "motion": ["stationary"]
+                },
+                "right_foot": {
+                    "position": ["flat"],
+                    "motion": ["stationary"]
+                },
+                "left_hip": {
+                    "position": ["seated"],
+                    "motion": ["stationary"]
+                },
+                "right_hip": {
+                    "position": ["seated"],
+                    "motion": ["stationary"]
+                },
+                "torso": {
+                    "position": ["upright"],
+                    "motion": ["stationary"]
+                },
+                "left_hand": {
+                    "position": ["over head"],
+                    "motion": ["vertical upward"]
+                },
+                "right_hand": {
+                    "position": ["over head"],
+                    "motion": ["vertical upward"]
+                },
+                "left_elbow": {
+                    "position": ["flexed"],
+                    "motion": ["extension"]
+                },
+                "right_elbow": {
+                    "position": ["flexed"],
+                    "motion": ["extension"]
+                },
+                "left_shoulder": {
+                    "position": ["neutral"],
+                    "motion": ["scapular retraction"]
+                },
+                "right_shoulder": {
+                    "position": ["neutral"],
+                    "motion": ["scapular retraction"]
+                },
+                "left_knee": {
+                    "position": ["bent"],
+                    "motion": ["stationary"]
+                },
+                "right_knee": {
+                    "position": ["bent"],
+                    "motion": ["stationary"]
+                }
+            },
+            "equipment": {
+                "type": ["dumbbell"]
+            },
+            "other": {
+                "mirrored": "true"
+            }
+        },
+        {
+            "activity": "dumbbell decline squeeze press",
+            "body_landmarks": {
+                "left_foot": {
+                    "position": ["flat"],
+                    "motion": ["stationary"]
+                },
+                "right_foot": {
+                    "position": ["flat"],
+                    "motion": ["stationary"]
+                },
+                "left_hip": {
+                    "position": ["seated"],
+                    "motion": ["stationary"]
+                },
+                "right_hip": {
+                    "position": ["seated"],
+                    "motion": ["stationary"]
+                },
+                "torso": {
+                    "position": ["upright"],
+                    "motion": ["stationary"]
+                },
+                "left_hand": {
+                    "position": ["over chest"],
+                    "motion": ["vertical upward"]
+                },
+                "right_hand": {
+                    "position": ["over chest"],
+                    "motion": ["vertical upward"]
+                },
+                "left_elbow": {
+                    "position": ["flexed"],
+                    "motion": ["extension"]
+                },
+                "right_elbow": {
+                    "position": ["flexed"],
+                    "motion": ["extension"]
+                },
+                "left_shoulder": {
+                    "position": ["neutral"],
+                    "motion": ["scapular retraction"]
+                },
+                "right_shoulder": {
+                    "position": ["neutral"],
+                    "motion": ["scapular retraction"]
+                },
+                "left_knee": {
+                    "position": ["bent"],
+                    "motion": ["stationary"]
+                },
+                "right_knee": {
+                    "position": ["bent"],
+                    "motion": ["stationary"]
+                }
+            },
+            "equipment": {
+                "type": ["dumbbell"]
+            },
+            "other": {
+                "mirrored": "true"
+            }
+        },
+        {
+            "activity": "dumbbell figure four glute bridge",
+            "body_landmarks": {
+                "left_foot": {
+                    "position": ["flat"],
+                    "motion": ["stationary"]
+                },
+                "right_foot": {
+                    "position": ["on ground"],
+                    "motion": ["stationary"]
+                },
+                "left_hip": {
+                    "position": ["hip hinge"],
+                    "motion": ["extension"]
+                },
+                "right_hip": {
+                    "position": ["seated"],
+                    "motion": ["stationary"]
+                },
+                "torso": {
+                    "position": ["upright"],
+                    "motion": ["stationary"]
+                },
+                "left_hand": {
+                    "position": ["stationary"],
+                    "motion": ["stationary"]
+                },
+                "right_hand": {
+                    "position": ["stationary"],
+                    "motion": ["stationary"]
+                },
+                "left_elbow": {
+                    "position": ["slightly flexed"],
+                    "motion": ["stationary"]
+                },
+                "right_elbow": {
+                    "position": ["slightly flexed"],
+                    "motion": ["stationary"]
+                },
+                "left_shoulder": {
+                    "position": ["neutral"],
+                    "motion": ["stationary"]
+                },
+                "right_shoulder": {
+                    "position": ["neutral"],
+                    "motion": ["stationary"]
+                },
+                "left_knee": {
+                    "position": ["bent"],
+                    "motion": ["stationary"]
+                },
+                "right_knee": {
+                    "position": ["bent"],
+                    "motion": ["stationary"]
+                }
+            },
+            "equipment": {
+                "type": ["dumbbell"]
+            },
+            "other": {
+                "mirrored": "true"
+            }
+        },
+        {
+            "activity": "dumbbell figure four hip thrust",
+            "body_landmarks": {
+                "left_foot": {
+                    "position": ["flat"],
+                    "motion": ["stationary"]
+                },
+                "right_foot": {
+                    "position": ["flat"],
+                    "motion": ["stationary"]
+                },
+                "left_hip": {
+                    "position": ["hip hinge"],
+                    "motion": ["extension"]
+                },
+                "right_hip": {
+                    "position": ["hip hinge"],
+                    "motion": ["stationary"]
+                },
+                "torso": {
+                    "position": ["upright"],
+                    "motion": ["stationary"]
+                },
+                "left_hand": {
+                    "position": ["stationary"],
+                    "motion": ["stationary"]
+                },
+                "right_hand": {
+                    "position": ["stationary"],
+                    "motion": ["stationary"]
+                },
+                "left_elbow": {
+                    "position": ["slightly flexed"],
+                    "motion": ["stationary"]
+                },
+                "right_elbow": {
+                    "position": ["slightly flexed"],
+                    "motion": ["stationary"]
+                },
+                "left_shoulder": {
+                    "position": ["neutral"],
+                    "motion": ["stationary"]
+                },
+                "right_shoulder": {
+                    "position": ["neutral"],
+                    "motion": ["stationary"]
+                },
+                "left_knee": {
+                    "position": ["bent"],
+                    "motion": ["stationary"]
+                },
+                "right_knee": {
+                    "position": ["bent"],
+                    "motion": ["stationary"]
+                }
+            },
+            "equipment": {
+                "type": ["dumbbell"]
+            },
+            "other": {
+                "mirrored": "true"
+            }
+        },
+        {
+            "activity": "dumbbell forward lunge",
+            "body_landmarks": {
+                "left_foot": {
+                    "position": ["on ground"],
+                    "motion": ["stationary"]
+                },
+                "right_foot": {
+                    "position": ["on ground"],
+                    "motion": ["stationary"]
+                },
+                "left_hip": {
+                    "position": ["upright"],
+                    "motion": ["stationary"]
+                },
+                "right_hip": {
+                    "position": ["upright"],
+                    "motion": ["stationary"]
+                },
+                "torso": {
+                    "position": ["upright"],
+                    "motion": ["stationary"]
+                },
+                "left_hand": {
+                    "position": ["holding equipment"],
+                    "motion": ["stationary"]
+                },
+                "right_hand": {
+                    "position": ["holding equipment"],
+                    "motion": ["stationary"]
+                },
+                "left_elbow": {
+                    "position": ["slightly flexed"],
+                    "motion": ["stationary"]
+                },
+                "right_elbow": {
+                    "position": ["slightly flexed"],
+                    "motion": ["stationary"]
+                },
+                "left_shoulder": {
+                    "position": ["neutral"],
+                    "motion": ["stationary"]
+                },
+                "right_shoulder": {
+                    "position": ["neutral"],
+                    "motion": ["stationary"]
+                },
+                "left_knee": {
+                    "position": ["bent at 90 degrees"],
+                    "motion": ["stationary"]
+                },
+                "right_knee": {
+                    "position": ["bent at 90 degrees"],
+                    "motion": ["stationary"]
+                }
+            },
+            "equipment": {
+                "type": ["dumbbell"]
+            },
+            "other": {
+                "mirrored": "true"
+            }
+        },
+        {
+            "activity": "dumbbell front rack pause squat",
+            "body_landmarks": {
+                "left_foot": {
+                    "position": ["flat"],
+                    "motion": ["stationary"]
+                },
+                "right_foot": {
+                    "position": ["flat"],
+                    "motion": ["stationary"]
+                },
+                "left_hip": {
+                    "position": ["upright"],
+                    "motion": ["stationary"]
+                },
+                "right_hip": {
+                    "position": ["upright"],
+                    "motion": ["stationary"]
+                },
+                "torso": {
+                    "position": ["neutral spine"],
+                    "motion": ["stationary"]
+                },
+                "left_hand": {
+                    "position": ["holding equipment"],
+                    "motion": ["stationary"]
+                },
+                "right_hand": {
+                    "position": ["holding equipment"],
+                    "motion": ["stationary"]
+                },
+                "left_elbow": {
+                    "position": ["close to torso"],
+                    "motion": ["stationary"]
+                },
+                "right_elbow": {
+                    "position": ["close to torso"],
+                    "motion": ["stationary"]
+                },
+                "left_shoulder": {
+                    "position": ["neutral"],
+                    "motion": ["stationary"]
+                },
+                "right_shoulder": {
+                    "position": ["neutral"],
+                    "motion": ["stationary"]
+                },
+                "left_knee": {
+                    "position": ["bent"],
+                    "motion": ["stationary"]
+                },
+                "right_knee": {
+                    "position": ["bent"],
+                    "motion": ["stationary"]
+                }
+            },
+            "equipment": {
+                "type": ["dumbbell"]
+            },
+            "other": {
+                "mirrored": "true"
+            }
+        },
+        {
+            "activity": "dumbbell front raise",
+            "body_landmarks": {
+                "left_foot": {
+                    "position": ["flat"],
+                    "motion": ["stationary"]
+                },
+                "right_foot": {
+                    "position": ["flat"],
+                    "motion": ["stationary"]
+                },
+                "left_hip": {
+                    "position": ["upright"],
+                    "motion": ["stationary"]
+                },
+                "right_hip": {
+                    "position": ["upright"],
+                    "motion": ["stationary"]
+                },
+                "torso": {
+                    "position": ["neutral spine"],
+                    "motion": ["stationary"]
+                },
+                "left_hand": {
+                    "position": ["holding equipment"],
+                    "motion": ["vertical upward"]
+                },
+                "right_hand": {
+                    "position": ["holding equipment"],
+                    "motion": ["vertical upward"]
+                },
+                "left_elbow": {
+                    "position": ["slightly flexed"],
+                    "motion": ["stationary"]
+                },
+                "right_elbow": {
+                    "position": ["slightly flexed"],
+                    "motion": ["stationary"]
+                },
+                "left_shoulder": {
+                    "position": ["neutral"],
+                    "motion": ["stationary"]
+                },
+                "right_shoulder": {
+                    "position": ["neutral"],
+                    "motion": ["stationary"]
+                },
+                "left_knee": {
+                    "position": ["bent"],
+                    "motion": ["stationary"]
+                },
+                "right_knee": {
+                    "position": ["bent"],
+                    "motion": ["stationary"]
+                }
+            },
+            "equipment": {
+                "type": ["dumbbell"]
+            },
+            "other": {
+                "mirrored": "true"
+            }
+        },
+        {
+            "activity": "dumbbell glute bridge",
+            "body_landmarks": {
+                "left_foot": {
+                    "position": ["flat"],
+                    "motion": ["stationary"]
+                },
+                "right_foot": {
+                    "position": ["flat"],
+                    "motion": ["stationary"]
+                },
+                "left_hip": {
+                    "position": ["hip hinge"],
+                    "motion": ["extension"]
+                },
+                "right_hip": {
+                    "position": ["hip hinge"],
+                    "motion": ["stationary"]
+                },
+                "torso": {
+                    "position": ["upright"],
+                    "motion": ["stationary"]
+                },
+                "left_hand": {
+                    "position": ["stationary"],
+                    "motion": ["stationary"]
+                },
+                "right_hand": {
+                    "position": ["stationary"],
+                    "motion": ["stationary"]
+                },
+                "left_elbow": {
+                    "position": ["slightly flexed"],
+                    "motion": ["stationary"]
+                },
+                "right_elbow": {
+                    "position": ["slightly flexed"],
+                    "motion": ["stationary"]
+                },
+                "left_shoulder": {
+                    "position": ["neutral"],
+                    "motion": ["stationary"]
+                },
+                "right_shoulder": {
+                    "position": ["neutral"],
+                    "motion": ["stationary"]
+                },
+                "left_knee": {
+                    "position": ["bent"],
+                    "motion": ["stationary"]
+                },
+                "right_knee": {
+                    "position": ["bent"],
+                    "motion": ["stationary"]
+                }
+            },
+            "equipment": {
+                "type": ["dumbbell"]
+            },
+            "other": {
+                "mirrored": "true"
+            }
+        },
+        {
+            "activity": "kettlebell calf raises",
+            "body_landmarks": {
+                "left_foot": {
+                    "position": ["flat"],
+                    "motion": ["plantar flexion"]
+                },
+                "right_foot": {
+                    "position": ["flat"],
+                    "motion": ["plantar flexion"]
+                },
+                "left_hip": {
+                    "position": ["upright"],
+                    "motion": ["stationary"]
+                },
+                "right_hip": {
+                    "position": ["upright"],
+                    "motion": ["stationary"]
+                },
+                "torso": {
+                    "position": ["neutral spine"],
+                    "motion": ["stationary"]
+                },
+                "left_hand": {
+                    "position": ["holding equipment"],
+                    "motion": ["stationary"]
+                },
+                "right_hand": {
+                    "position": ["holding equipment"],
+                    "motion": ["stationary"]
+                },
+                "left_elbow": {
+                    "position": ["slightly flexed"],
+                    "motion": ["stationary"]
+                },
+                "right_elbow": {
+                    "position": ["slightly flexed"],
+                    "motion": ["stationary"]
+                },
+                "left_shoulder": {
+                    "position": ["neutral"],
+                    "motion": ["stationary"]
+                },
+                "right_shoulder": {
+                    "position": ["neutral"],
+                    "motion": ["stationary"]
+                },
+                "left_knee": {
+                    "position": ["slightly flexed"],
+                    "motion": ["stationary"]
+                },
+                "right_knee": {
+                    "position": ["slightly flexed"],
+                    "motion": ["stationary"]
+                }
+            },
+            "equipment": {
+                "type": ["kettlebell"]
+            },
+            "other": {
+                "mirrored": "true"
+            }
+        },
+        {
+            "activity": "kettlebell chest press",
+            "body_landmarks": {
+                "left_foot": {
+                    "position": ["flat"],
+                    "motion": ["stationary"]
+                },
+                "right_foot": {
+                    "position": ["flat"],
+                    "motion": ["stationary"]
+                },
+                "left_hip": {
+                    "position": ["seated"],
+                    "motion": ["stationary"]
+                },
+                "right_hip": {
+                    "position": ["seated"],
+                    "motion": ["stationary"]
+                },
+                "torso": {
+                    "position": ["upright"],
+                    "motion": ["stationary"]
+                },
+                "left_hand": {
+                    "position": ["over chest"],
+                    "motion": ["vertical upward"]
+                },
+                "right_hand": {
+                    "position": ["over chest"],
+                    "motion": ["vertical upward"]
+                },
+                "left_elbow": {
+                    "position": ["bent at 90 degrees"],
+                    "motion": ["extension"]
+                },
+                "right_elbow": {
+                    "position": ["bent at 90 degrees"],
+                    "motion": ["extension"]
+                },
+                "left_shoulder": {
+                    "position": ["neutral"],
+                    "motion": ["scapular retraction"]
+                },
+                "right_shoulder": {
+                    "position": ["neutral"],
+                    "motion": ["scapular retraction"]
+                },
+                "left_knee": {
+                    "position": ["bent"],
+                    "motion": ["stationary"]
+                },
+                "right_knee": {
+                    "position": ["bent"],
+                    "motion": ["stationary"]
+                }
+            },
+            "equipment": {
+                "type": ["kettlebell"]
+            },
+            "other": {
+                "mirrored": "true"
+            }
+        },
+        {
+            "activity": "kettlebell concentration curl",
+            "body_landmarks": {
+                "left_foot": {
+                    "position": ["flat"],
+                    "motion": ["stationary"]
+                },
+                "right_foot": {
+                    "position": ["flat"],
+                    "motion": ["stationary"]
+                },
+                "left_hip": {
+                    "position": ["upright"],
+                    "motion": ["stationary"]
+                },
+                "right_hip": {
+                    "position": ["upright"],
+                    "motion": ["stationary"]
+                },
+                "torso": {
+                    "position": ["upright"],
+                    "motion": ["stationary"]
+                },
+                "left_hand": {
+                    "position": ["holding equipment"],
+                    "motion": ["flexion"]
+                },
+                "right_hand": {
+                    "position": ["stationary"],
+                    "motion": ["stationary"]
+                },
+                "left_elbow": {
+                    "position": ["close to torso"],
+                    "motion": ["flexion"]
+                },
+                "right_elbow": {
+                    "position": ["stationary"],
+                    "motion": ["stationary"]
+                },
+                "left_shoulder": {
+                    "position": ["neutral"],
+                    "motion": ["stationary"]
+                },
+                "right_shoulder": {
+                    "position": ["stationary"],
+                    "motion": ["stationary"]
+                },
+                "left_knee": {
+                    "position": ["bent"],
+                    "motion": ["stationary"]
+                },
+                "right_knee": {
+                    "position": ["stationary"],
+                    "motion": ["stationary"]
+                }
+            },
+            "equipment": {
+                "type": ["kettlebell"]
+            },
+            "other": {
+                "mirrored": "true"
+            }
+        },
+        {
+            "activity": "kettlebell deadlift",
+            "body_landmarks": {
+                "left_foot": {
+                    "position": ["flat"],
+                    "motion": ["stationary"]
+                },
+                "right_foot": {
+                    "position": ["flat"],
+                    "motion": ["stationary"]
+                },
+                "left_hip": {
+                    "position": ["hip hinge"],
+                    "motion": ["stationary"]
+                },
+                "right_hip": {
+                    "position": ["hip hinge"],
+                    "motion": ["stationary"]
+                },
+                "torso": {
+                    "position": ["neutral spine"],
+                    "motion": ["stationary"]
+                },
+                "left_hand": {
+                    "position": ["holding equipment"],
+                    "motion": ["stationary"]
+                },
+                "right_hand": {
+                    "position": ["holding equipment"],
+                    "motion": ["stationary"]
+                },
+                "left_elbow": {
+                    "position": ["slightly flexed"],
+                    "motion": ["stationary"]
+                },
+                "right_elbow": {
+                    "position": ["slightly flexed"],
+                    "motion": ["stationary"]
+                },
+                "left_shoulder": {
+                    "position": ["neutral"],
+                    "motion": ["stationary"]
+                },
+                "right_shoulder": {
+                    "position": ["neutral"],
+                    "motion": ["stationary"]
+                },
+                "left_knee": {
+                    "position": ["bent"],
+                    "motion": ["stationary"]
+                },
+                "right_knee": {
+                    "position": ["bent"],
+                    "motion": ["stationary"]
+                }
+            },
+            "equipment": {
+                "type": ["kettlebell"]
+            },
+            "other": {
+                "mirrored": "true"
+            }
+        },
+        {
+            "activity": "kettlebell decline skull crusher",
+            "body_landmarks": {
+                "left_foot": {
+                    "position": ["flat"],
+                    "motion": ["stationary"]
+                },
+                "right_foot": {
+                    "position": ["flat"],
+                    "motion": ["stationary"]
+                },
+                "left_hip": {
+                    "position": ["seated"],
+                    "motion": ["stationary"]
+                },
+                "right_hip": {
+                    "position": ["seated"],
+                    "motion": ["stationary"]
+                },
+                "torso": {
+                    "position": ["leaning backward"],
+                    "motion": ["stationary"]
+                },
+                "left_hand": {
+                    "position": ["over head"],
+                    "motion": ["vertical upward"]
+                },
+                "right_hand": {
+                    "position": ["over head"],
+                    "motion": ["vertical upward"]
+                },
+                "left_elbow": {
+                    "position": ["flexed"],
+                    "motion": ["extension"]
+                },
+                "right_elbow": {
+                    "position": ["flexed"],
+                    "motion": ["extension"]
+                },
+                "left_shoulder": {
+                    "position": ["retracted"],
+                    "motion": ["stationary"]
+                },
+                "right_shoulder": {
+                    "position": ["retracted"],
+                    "motion": ["stationary"]
+                },
+                "left_knee": {
+                    "position": ["bent"],
+                    "motion": ["stationary"]
+                },
+                "right_knee": {
+                    "position": ["bent"],
+                    "motion": ["stationary"]
+                }
+            },
+            "equipment": {
+                "type": ["kettlebell"]
+            },
+            "other": {
+                "mirrored": "true"
+            }
+        },
+        {
+            "activity": "kettlebell glute bridge",
+            "body_landmarks": {
+                "left_foot": {
+                    "position": ["flat"],
+                    "motion": ["stationary"]
+                },
+                "right_foot": {
+                    "position": ["flat"],
+                    "motion": ["stationary"]
+                },
+                "left_hip": {
+                    "position": ["hip hinge"],
+                    "motion": ["extension"]
+                },
+                "right_hip": {
+                    "position": ["hip hinge"],
+                    "motion": ["stationary"]
+                },
+                "torso": {
+                    "position": ["upright"],
+                    "motion": ["stationary"]
+                },
+                "left_hand": {
+                    "position": ["stationary"],
+                    "motion": ["stationary"]
+                },
+                "right_hand": {
+                    "position": ["stationary"],
+                    "motion": ["stationary"]
+                },
+                "left_elbow": {
+                    "position": ["slightly flexed"],
+                    "motion": ["stationary"]
+                },
+                "right_elbow": {
+                    "position": ["slightly flexed"],
+                    "motion": ["stationary"]
+                },
+                "left_shoulder": {
+                    "position": ["neutral"],
+                    "motion": ["stationary"]
+                },
+                "right_shoulder": {
+                    "position": ["neutral"],
+                    "motion": ["stationary"]
+                },
+                "left_knee": {
+                    "position": ["bent"],
+                    "motion": ["stationary"]
+                },
+                "right_knee": {
+                    "position": ["bent"],
+                    "motion": ["stationary"]
+                }
+            },
+            "equipment": {
+                "type": ["kettlebell"]
+            },
+            "other": {
+                "mirrored": "true"
+            }
+        },
+        {
+            "activity": "kettlebell goblet curl",
+            "body_landmarks": {
+                "left_foot": {
+                    "position": ["flat"],
+                    "motion": ["stationary"]
+                },
+                "right_foot": {
+                    "position": ["flat"],
+                    "motion": ["stationary"]
+                },
+                "left_hip": {
+                    "position": ["upright"],
+                    "motion": ["stationary"]
+                },
+                "right_hip": {
+                    "position": ["upright"],
+                    "motion": ["stationary"]
+                },
+                "torso": {
+                    "position": ["upright"],
+                    "motion": ["stationary"]
+                },
+                "left_hand": {
+                    "position": ["holding equipment"],
+                    "motion": ["flexion"]
+                },
+                "right_hand": {
+                    "position": ["holding equipment"],
+                    "motion": ["flexion"]
+                },
+                "left_elbow": {
+                    "position": ["close to torso"],
+                    "motion": ["flexion"]
+                },
+                "right_elbow": {
+                    "position": ["close to torso"],
+                    "motion": ["flexion"]
+                },
+                "left_shoulder": {
+                    "position": ["neutral"],
+                    "motion": ["stationary"]
+                },
+                "right_shoulder": {
+                    "position": ["neutral"],
+                    "motion": ["stationary"]
+                },
+                "left_knee": {
+                    "position": ["bent"],
+                    "motion": ["stationary"]
+                },
+                "right_knee": {
+                    "position": ["bent"],
+                    "motion": ["stationary"]
+                }
+            },
+            "equipment": {
+                "type": ["kettlebell"]
+            },
+            "other": {
+                "mirrored": "true"
+            }
+        },
+        {
+            "activity": "kettlebell goblet good morning",
+            "body_landmarks": {
+                "left_foot": {
+                    "position": ["flat"],
+                    "motion": ["stationary"]
+                },
+                "right_foot": {
+                    "position": ["flat"],
+                    "motion": ["stationary"]
+                },
+                "left_hip": {
+                    "position": ["hip hinge"],
+                    "motion": ["stationary"]
+                },
+                "right_hip": {
+                    "position": ["hip hinge"],
+                    "motion": ["stationary"]
+                },
+                "torso": {
+                    "position": ["neutral spine"],
+                    "motion": ["stationary"]
+                },
+                "left_hand": {
+                    "position": ["holding equipment"],
+                    "motion": ["stationary"]
+                },
+                "right_hand": {
+                    "position": ["holding equipment"],
+                    "motion": ["stationary"]
+                },
+                "left_elbow": {
+                    "position": ["slightly flexed"],
+                    "motion": ["stationary"]
+                },
+                "right_elbow": {
+                    "position": ["slightly flexed"],
+                    "motion": ["stationary"]
+                },
+                "left_shoulder": {
+                    "position": ["neutral"],
+                    "motion": ["stationary"]
+                },
+                "right_shoulder": {
+                    "position": ["neutral"],
+                    "motion": ["stationary"]
+                },
+                "left_knee": {
+                    "position": ["slightly bent"],
+                    "motion": ["stationary"]
+                },
+                "right_knee": {
+                    "position": ["slightly bent"],
+                    "motion": ["stationary"]
+                }
+            },
+            "equipment": {
+                "type": ["kettlebell"]
+            },
+            "other": {
+                "mirrored": "true"
+            }
+        },
+        {
+            "activity": "kettlebell goblet squat",
+            "body_landmarks": {
+                "left_foot": {
+                    "position": ["flat"],
+                    "motion": ["stationary"]
+                },
+                "right_foot": {
+                    "position": ["flat"],
+                    "motion": ["stationary"]
+                },
+                "left_hip": {
+                    "position": ["upright"],
+                    "motion": ["stationary"]
+                },
+                "right_hip": {
+                    "position": ["upright"],
+                    "motion": ["stationary"]
+                },
+                "torso": {
+                    "position": ["neutral spine"],
+                    "motion": ["stationary"]
+                },
+                "left_hand": {
+                    "position": ["holding equipment"],
+                    "motion": ["stationary"]
+                },
+                "right_hand": {
+                    "position": ["holding equipment"],
+                    "motion": ["stationary"]
+                },
+                "left_elbow": {
+                    "position": ["slightly flexed"],
+                    "motion": ["stationary"]
+                },
+                "right_elbow": {
+                    "position": ["slightly flexed"],
+                    "motion": ["stationary"]
+                },
+                "left_shoulder": {
+                    "position": ["neutral"],
+                    "motion": ["stationary"]
+                },
+                "right_shoulder": {
+                    "position": ["neutral"],
+                    "motion": ["stationary"]
+                },
+                "left_knee": {
+                    "position": ["bent"],
+                    "motion": ["stationary"]
+                },
+                "right_knee": {
+                    "position": ["bent"],
+                    "motion": ["stationary"]
+                }
+            },
+            "equipment": {
+                "type": ["kettlebell"]
+            },
+            "other": {
+                "mirrored": "true"
+            }
+        }
+    ]
+}
