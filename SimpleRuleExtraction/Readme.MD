@@ -21,3 +21,6 @@ Modules:
     Mediapipe pose estimation
     Butterworth denoising filter
     dense optical flow (?)
+
+Goal:
+Provide accurate rule extraction so that we can do clustering based on the rules extracted, the clusters shall then each train a smaller model for it.
