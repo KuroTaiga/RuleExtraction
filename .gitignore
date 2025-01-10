@@ -2,3 +2,7 @@
 /RuleExtraction_Complex/mmcv
 /RuleExtraction_Complex/FDHumans
 /RuleExtraction_Complex/ViTPose
+*.pt
+/SimpleRuleExtraction/__pycache__
+*.mp4
+/SimpleRuleExtraction/yolov7

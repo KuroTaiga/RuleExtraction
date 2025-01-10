@@ -1,5 +1,5 @@
 #create conda env
-conda create -n ruleExtraction python=3.10
+conda create -n ruleExtraction python=3.10 -y
 conda activate ruleExtraction
 
 pip install -r requirements.txt
