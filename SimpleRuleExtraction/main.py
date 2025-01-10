@@ -1,5 +1,5 @@
 from helper import *
-# from GYMDetector import YOLOv7EquipmentDetector, PoseDetector
+from GYMDetector import YOLOv7EquipmentDetector, PoseDetector
 from constants import EQUIPMENTS
 
 def detect_equipment_from_filename(filename: str) -> list:
@@ -29,8 +29,9 @@ def main():
     os.makedirs(output_path, exist_ok=True)
     video_files,activity_names = extract_videos(video_source)
 
-    print(activity_names)
+    # print(activity_names)
 
+    equiptment_detector = YOLOv7EquipmentDetector(model_path)
     
 main()
     

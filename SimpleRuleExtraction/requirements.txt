@@ -4,3 +4,5 @@ scipy
 opencv-python
 pandas
 mediapipe
+psutil
+bleach

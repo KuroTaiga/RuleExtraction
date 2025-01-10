@@ -1,6 +1,9 @@
 #create conda env
-conda create -n ruleExtraction python=3.10 -y
+conda create --name ruleExtraction python=3.10 -y
 conda activate ruleExtraction
+
+conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
+
 
 pip install -r requirements.txt
 
