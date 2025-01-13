@@ -1,0 +1,648 @@
+{
+  "Abdominals Stretch -4": {
+    "pose": {
+      "torso": "lying_flat",
+      "hip": "extended",
+      "knee": "bent",
+      "hand": "overhead",
+      "spine": "elongated",
+      "arms": {
+        "shoulder_position": "flexed",
+        "elbow_position": "slightly_bent",
+        "wrist_position": "extended"
+      }
+    },
+    "movement": {
+      "primary": "stretching",
+      "secondary": []
+    },
+    "equipment": "none",
+    "joint_actions": {
+      "spine": ["extension"],
+      "shoulder": ["flexion"],
+      "hip": ["extension"],
+      "knee": ["flexion"]
+    }
+  },
+  "Alternating Overhead Press": {
+    "pose": {
+      "hand": ["holding_Dumbell", "overhead"],
+      "elbow": ["extended", "alternating"],
+      "shoulder": ["flexed", "abducted"],
+      "foot": "shoulder_width_apart",
+      "torso": "upright",
+      "arms": {
+        "shoulder_position": "flexed_abducted",
+        "elbow_position": "extended_alternating",
+        "wrist_position": "neutral"
+      }
+    },
+    "movement": {
+      "primary": "pressing",
+      "secondary": ["alternating"]
+    },
+    "equipment": "Dumbell",
+    "joint_actions": {
+      "shoulder": ["flexion", "abduction"],
+      "elbow": ["extension"],
+      "wrist": ["neutral"]
+    }
+  },
+  "Arnold Press": {
+    "pose": {
+      "hand": ["at_shoulder_level", "supinated_to_pronated"],
+      "elbow": "moderately_bent",
+      "shoulder": ["flexed", "abducted", "externally_rotated"],
+      "foot": "shoulder_width_apart",
+      "torso": "upright",
+      "arms": {
+        "shoulder_position": "flexed_abducted_external_rotated",
+        "elbow_position": "moderately_bent",
+        "wrist_position": "supinated_to_pronated"
+      }
+    },
+    "movement": {
+      "primary": "pressing",
+      "secondary": ["rotating"]
+    },
+    "equipment": "Dumbell",
+    "joint_actions": {
+      "shoulder": ["flexion", "abduction", "external_rotation"],
+      "elbow": ["extension"],
+      "wrist": ["supination", "pronation"]
+    }
+  },
+  "Assisted Bulgarian Split Squat": {
+    "pose": {
+      "foot": ["front_flat", "rear_elevated"],
+      "knee": ["front_bent", "rear_bent"],
+      "hip": ["flexed"],
+      "torso": "upright",
+      "arms": {
+        "shoulder_position": "neutral",
+        "elbow_position": "neutral",
+        "wrist_position": "neutral"
+      }
+    },
+    "movement": {
+      "primary": "squatting",
+      "secondary": ["balancing"]
+    },
+    "equipment": "bench",
+    "joint_actions": {
+      "knee": ["flexion", "extension"],
+      "hip": ["flexion", "extension"],
+      "ankle": ["dorsiflexion"]
+    }
+  },
+  "Ball Hamstring Curl": {
+    "pose": {
+      "torso": "lying_flat",
+      "foot": "on_Ball",
+      "hip": "above_shoulders",
+      "knee": "extended",
+      "arms": {
+        "shoulder_position": "neutral",
+        "elbow_position": "neutral",
+        "wrist_position": "neutral"
+      }
+    },
+    "movement": {
+      "primary": "curling",
+      "secondary": ["extending"]
+    },
+    "equipment": "Ball",
+    "joint_actions": {
+      "knee": ["flexion", "extension"],
+      "hip": ["extension"]
+    }
+  },
+  "Band Bayesian Hammer Curl": {
+    "pose": {
+      "hand": "holding_band",
+      "elbow": "close_to_torso",
+      "torso": "upright",
+      "wrist": "neutral",
+      "arms": {
+        "shoulder_position": "neutral",
+        "elbow_position": "flexed",
+        "wrist_position": "neutral"
+      }
+    },
+    "movement": {
+      "primary": "curling",
+      "secondary": []
+    },
+    "equipment": "none",
+    "joint_actions": {
+      "elbow": ["flexion"],
+      "wrist": ["neutral"]
+    }
+  },
+  "Band Front Raise": {
+    "pose": {
+      "hand": "holding_band",
+      "foot": "shoulder_width_apart",
+      "torso": "upright",
+      "shoulder": "neutral",
+      "arms": {
+        "shoulder_position": "neutral",
+        "elbow_position": "slightly_bent",
+        "wrist_position": "neutral"
+      }
+    },
+    "movement": {
+      "primary": "raising",
+      "secondary": []
+    },
+    "equipment": "none",
+    "joint_actions": {
+      "shoulder": ["flexion"]
+    }
+  },
+  "Band Glute Kickback": {
+    "pose": {
+      "hip": "hinged",
+      "knee": "bent",
+      "foot": "with_band",
+      "torso": "parallel_to_ground",
+      "arms": {
+        "shoulder_position": "neutral",
+        "elbow_position": "neutral",
+        "wrist_position": "neutral"
+      }
+    },
+    "movement": {
+      "primary": "extending",
+      "secondary": []
+    },
+    "equipment": "none",
+    "joint_actions": {
+      "hip": ["extension"],
+      "knee": ["extension"]
+    }
+  },
+  "Band Hammer Curl": {
+    "pose": {
+      "hand": "holding_band",
+      "elbow": "close_to_torso",
+      "foot": "shoulder_width_apart",
+      "wrist": "neutral",
+      "arms": {
+        "shoulder_position": "neutral",
+        "elbow_position": "flexed",
+        "wrist_position": "neutral"
+      }
+    },
+    "movement": {
+      "primary": "curling",
+      "secondary": []
+    },
+    "equipment": "none",
+    "joint_actions": {
+      "elbow": ["flexion"],
+      "wrist": ["neutral"]
+    }
+  },
+  "Band High Hammer Curl": {
+    "pose": {
+      "hand": "holding_band",
+      "elbow": "elevated",
+      "foot": "shoulder_width_apart",
+      "shoulder": "slightly_flexed",
+      "arms": {
+        "shoulder_position": "slightly_flexed",
+        "elbow_position": "flexed",
+        "wrist_position": "neutral"
+      }
+    },
+    "movement": {
+      "primary": "curling",
+      "secondary": []
+    },
+    "equipment": "none",
+    "joint_actions": {
+      "elbow": ["flexion"],
+      "shoulder": ["flexion"]
+    }
+  },
+  "Band Lateral Raise": {
+    "pose": {
+      "hand": "holding_band",
+      "foot": "shoulder_width_apart",
+      "torso": "upright",
+      "shoulder": "neutral",
+      "arms": {
+        "shoulder_position": "abducted",
+        "elbow_position": "slightly_bent",
+        "wrist_position": "neutral"
+      }
+    },
+    "movement": {
+      "primary": "raising",
+      "secondary": []
+    },
+    "equipment": "none",
+    "joint_actions": {
+      "shoulder": ["abduction"]
+    }
+  },
+  "Band Skullcrusher": {
+    "pose": {
+      "hand": "holding_band",
+      "elbow": "bent",
+      "torso": "upright",
+      "foot": "shoulder_width_apart",
+      "arms": {
+        "shoulder_position": "neutral",
+        "elbow_position": "bent",
+        "wrist_position": "neutral"
+      }
+    },
+    "movement": {
+      "primary": "extending",
+      "secondary": []
+    },
+    "equipment": "none",
+    "joint_actions": {
+      "elbow": ["extension"]
+    }
+  },
+  "Band Squat": {
+    "pose": {
+      "hand": "holding_band",
+      "foot": "shoulder_width_apart",
+      "torso": "upright",
+      "knee": "slightly_bent",
+      "arms": {
+        "shoulder_position": "neutral",
+        "elbow_position": "neutral",
+        "wrist_position": "neutral"
+      }
+    },
+    "movement": {
+      "primary": "squatting",
+      "secondary": []
+    },
+    "equipment": "none",
+    "joint_actions": {
+      "hip": ["flexion", "extension"],
+      "knee": ["flexion", "extension"]
+    }
+  },
+  "Band Wood Chopper": {
+    "pose": {
+      "hand": "holding_band",
+      "foot": "shoulder_width_apart",
+      "torso": "twisted",
+      "knee": "slightly_bent",
+      "arms": {
+        "shoulder_position": "flexed",
+        "elbow_position": "neutral",
+        "wrist_position": "neutral"
+      }
+    },
+    "movement": {
+      "primary": "rotating",
+      "secondary": []
+    },
+    "equipment": "none",
+    "joint_actions": {
+      "spine": ["rotation"],
+      "shoulder": ["flexion"]
+    }
+  },
+  "Barbell and Weight Curtsy Lunge": {
+    "pose": {
+      "hand": ["holding_Barbell", "at_side"],
+      "foot": "shoulder_width_apart",
+      "torso": "upright",
+      "knee": "bent",
+      "arms": {
+        "shoulder_position": "neutral",
+        "elbow_position": "neutral",
+        "wrist_position": "neutral"
+      }
+    },
+    "movement": {
+      "primary": "lunging",
+      "secondary": []
+    },
+    "equipment": "Barbell",
+    "joint_actions": {
+      "hip": ["abduction", "extension"],
+      "knee": ["flexion", "extension"]
+    }
+  },
+  "Barbell Bench Press": {
+    "pose": {
+      "hand": ["holding_Barbell", "overhead"],
+      "foot": "ground",
+      "torso": "lying_flat",
+      "elbow": "moderately_bent",
+      "arms": {
+        "shoulder_position": "flexed_adducted",
+        "elbow_position": "moderately_bent",
+        "wrist_position": "neutral"
+      }
+    },
+    "movement": {
+      "primary": "pressing",
+      "secondary": []
+    },
+    "equipment": "Barbell",
+    "joint_actions": {
+      "shoulder": ["flexion", "adduction"],
+      "elbow": ["extension"]
+    }
+  },
+  "Barbell Bulgarian Split Squat": {
+    "pose": {
+      "hand": ["holding_Barbell", "at_side"],
+      "foot": ["staggered", "rear_on_bench"],
+      "torso": "upright",
+      "knee": "bent",
+      "arms": {
+        "shoulder_position": "neutral",
+        "elbow_position": "neutral",
+        "wrist_position": "neutral"
+      }
+    },
+    "movement": {
+      "primary": "squatting",
+      "secondary": []
+    },
+    "equipment": "Barbell",
+    "joint_actions": {
+      "hip": ["flexion", "extension"],
+      "knee": ["flexion", "extension"],
+      "ankle": ["dorsiflexion"]
+    }
+  },
+  "Barbell Close Grip Bench Press": {
+    "pose": {
+      "hand": ["holding_Barbell", "close_grip"],
+      "foot": "ground",
+      "torso": "lying_flat",
+      "elbow": "moderately_bent",
+      "arms": {
+        "shoulder_position": "flexed_adducted",
+        "elbow_position": "moderately_bent",
+        "wrist_position": "neutral"
+      }
+    },
+    "movement": {
+      "primary": "pressing",
+      "secondary": []
+    },
+    "equipment": "Barbell",
+    "joint_actions": {
+      "shoulder": ["flexion", "adduction"],
+      "elbow": ["extension"]
+    }
+  },
+  "Barbell Curtsy Lunge": {
+    "pose": {
+      "hand": ["holding_Barbell", "at_side"],
+      "foot": ["crossed_behind", "shoulder_width_apart"],
+      "torso": "upright",
+      "knee": "bent",
+      "arms": {
+        "shoulder_position": "neutral",
+        "elbow_position": "neutral",
+        "wrist_position": "neutral"
+      }
+    },
+    "movement": {
+      "primary": "lunging",
+      "secondary": []
+    },
+    "equipment": "Barbell",
+    "joint_actions": {
+      "hip": ["abduction", "extension"],
+      "knee": ["flexion", "extension"]
+    }
+  },
+  "Barbell Front Raise": {
+    "pose": {
+      "hand": ["holding_Barbell", "in_front"],
+      "foot": "shoulder_width_apart",
+      "torso": "upright",
+      "elbow": "slightly_bent",
+      "arms": {
+        "shoulder_position": "flexed",
+        "elbow_position": "slightly_bent",
+        "wrist_position": "neutral"
+      }
+    },
+    "movement": {
+      "primary": "raising",
+      "secondary": []
+    },
+    "equipment": "Barbell",
+    "joint_actions": {
+      "shoulder": ["flexion"]
+    }
+  },
+  "Barbell High Bar Good Morning": {
+    "pose": {
+      "hand": ["holding_Barbell", "on_traps"],
+      "foot": "shoulder_width_apart",
+      "torso": "leaned_forward",
+      "knee": "slightly_bent",
+      "arms": {
+        "shoulder_position": "neutral",
+        "elbow_position": "neutral",
+        "wrist_position": "neutral"
+      }
+    },
+    "movement": {
+      "primary": "bending_forward",
+      "secondary": []
+    },
+    "equipment": "Barbell",
+    "joint_actions": {
+      "spine": ["flexion"],
+      "hip": ["extension"]
+    }
+  },
+  "Barbell High Bar Squat": {
+    "pose": {
+      "hand": ["holding_Barbell", "on_high_traps"],
+      "foot": "shoulder_width_apart",
+      "torso": "upright",
+      "knee": "bent",
+      "arms": {
+        "shoulder_position": "neutral",
+        "elbow_position": "neutral",
+        "wrist_position": "neutral"
+      }
+    },
+    "movement": {
+      "primary": "squatting",
+      "secondary": []
+    },
+    "equipment": "Barbell",
+    "joint_actions": {
+      "hip": ["flexion", "extension"],
+      "knee": ["flexion", "extension"],
+      "ankle": ["dorsiflexion"]
+    }
+  },
+  "Barbell Low Bar Squat": {
+    "pose": {
+      "hand": ["holding_Barbell", "on_lower_traps"],
+      "foot": "shoulder_width_apart",
+      "torso": "leaned_forward",
+      "knee": "bent",
+      "arms": {
+        "shoulder_position": "neutral",
+        "elbow_position": "neutral",
+        "wrist_position": "neutral"
+      }
+    },
+    "movement": {
+      "primary": "squatting",
+      "secondary": []
+    },
+    "equipment": "Barbell",
+    "joint_actions": {
+      "hip": ["flexion", "extension"],
+      "knee": ["flexion", "extension"],
+      "ankle": ["dorsiflexion"]
+    }
+  },
+  "Barbell Seated Calf Raise": {
+    "pose": {
+      "hand": ["holding_Barbell", "on_thighs"],
+      "foot": "on_calf_raise_machine",
+      "torso": "seated",
+      "knee": "bent",
+      "arms": {
+        "shoulder_position": "neutral",
+        "elbow_position": "neutral",
+        "wrist_position": "neutral"
+      }
+    },
+    "movement": {
+      "primary": "raising_heels",
+      "secondary": []
+    },
+    "equipment": "Barbell",
+    "joint_actions": {
+      "ankle": ["plantarflexion"]
+    }
+  },
+  "Kettlebell Hip Thrust": {
+    "pose": {
+      "hand": ["holding_Kettlebell", "on_hips"],
+      "foot": "shoulder_width_apart",
+      "torso": "upper_back_on_bench",
+      "knee": "bent",
+      "arms": {
+        "shoulder_position": "neutral",
+        "elbow_position": "neutral",
+        "wrist_position": "neutral"
+      }
+    },
+    "movement": {
+      "primary": "thrusting_hips",
+      "secondary": []
+    },
+    "equipment": "Kettlebell",
+    "joint_actions": {
+      "hip": ["extension"],
+      "knee": ["extension"]
+    }
+  },
+  "Neutral Seated Overhead Press": {
+    "pose": {
+      "hand": ["holding_Dumbell", "neutral_grip"],
+      "foot": "shoulder_width_apart",
+      "torso": "seated_upright",
+      "elbow": "moderately_bent",
+      "arms": {
+        "shoulder_position": "flexed_abducted",
+        "elbow_position": "moderately_bent",
+        "wrist_position": "neutral"
+      }
+    },
+    "movement": {
+      "primary": "pressing",
+      "secondary": []
+    },
+    "equipment": "Dumbell",
+    "joint_actions": {
+      "shoulder": ["flexion", "abduction"],
+      "elbow": ["extension"]
+    }
+  },
+  "Staggered Hip Thrust": {
+    "pose": {
+      "hand": ["holding_Dumbell", "on_hips"],
+      "foot": ["one_forward", "one_back"],
+      "torso": "upper_back_on_bench",
+      "knee": "bent",
+      "arms": {
+        "shoulder_position": "neutral",
+        "elbow_position": "neutral",
+        "wrist_position": "neutral"
+      }
+    },
+    "movement": {
+      "primary": "thrusting_hips",
+      "secondary": []
+    },
+    "equipment": "Dumbell",
+    "joint_actions": {
+      "hip": ["extension"],
+      "knee": ["extension"]
+    }
+  },
+  "Supermans": {
+    "pose": {
+      "torso": "lying_face_down",
+      "arms": "extended_forward",
+      "legs": "extended",
+      "neck": "neutral",
+      "arms": {
+        "shoulder_position": "extension",
+        "elbow_position": "neutral",
+        "wrist_position": "neutral"
+      }
+    },
+    "movement": {
+      "primary": "lifting_limbs",
+      "secondary": []
+    },
+    "equipment": "none",
+    "joint_actions": {
+      "spine": ["extension"],
+      "shoulder": ["extension"],
+      "hip": ["extension"]
+    }
+  },
+  "Windmill": {
+    "pose": {
+      "hand": ["holding_Dumbell", "extended_up"],
+      "foot": "wide_stance",
+      "torso": "twisted",
+      "knee": "slightly_bent",
+      "arms": {
+        "shoulder_position": "flexed",
+        "elbow_position": "slightly_bent",
+        "wrist_position": "neutral"
+      }
+    },
+    "movement": {
+      "primary": "bending_forward",
+      "secondary": []
+    },
+    "equipment": "Dumbell",
+    "joint_actions": {
+      "spine": ["flexion"],
+      "shoulder": ["flexion"],
+      "hip": ["flexion"]
+    }
+  }
+}

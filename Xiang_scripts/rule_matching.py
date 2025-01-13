@@ -16,14 +16,14 @@ from scipy import signal
 import requests
 
 # 更新为新电脑上的完整路径
-BASE_PATH = '/home/bizon/xiang/new_computer'
+BASE_PATH = '/home/bizon/dong/RuleExtraction/Xiang_scripts'
 SRC_PATH = os.path.join(BASE_PATH, 'src')
-VIDEO_PATH = os.path.join(BASE_PATH, 'origin_test_video')
+VIDEO_PATH = os.path.join(BASE_PATH, 'videos')
 YOLO_PATH = os.path.join(BASE_PATH, 'yolov7')
 YOLO_SCRIPT = os.path.join(YOLO_PATH, 'detect_revise.py')
-YOLO_WEIGHTS = os.path.join(BASE_PATH, 'best.pt')
+YOLO_WEIGHTS = os.path.join('/home/bizon/xiang/new_computer/', 'best.pt')
 EXERCISE_JSON = os.path.join(BASE_PATH, 'exercise_generate_最新.json')
-GENERATE_VIDEO_PATH = os.path.join(BASE_PATH, 'generate_video')
+GENERATE_VIDEO_PATH = os.path.join(BASE_PATH, 'generate_video/jan12')
 
 def verify_and_import():
     """验证所需路径和导入必要模块"""
@@ -189,7 +189,7 @@ def collect_video_files():
         if file.endswith(".mp4"):
             matched_exercise = next(
                 (exercise for exercise in allowed_exercises
-                 if exercise.lower() in file.lower()),
+                 if exercise.lower().replace(" ","_") in file.lower()),
                 None
             )
 

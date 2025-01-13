@@ -9,15 +9,14 @@ import mediapipe as mp
 import signal
 import subprocess
 
-# 修改路径设置
-BASE_PATH = '/home/bizon/xiang/new_computer'  # 新的基础路径
+BASE_PATH = '/home/bizon/dong/RuleExtraction/Xiang_scripts'
 SRC_PATH = os.path.join(BASE_PATH, 'src')
-VIDEO_PATH = os.path.join(BASE_PATH, 'origin_test_video')
+VIDEO_PATH = os.path.join(BASE_PATH, 'videos/jan12')
 YOLO_PATH = os.path.join(BASE_PATH, 'yolov7')
 YOLO_SCRIPT = os.path.join(YOLO_PATH, 'detect_revise.py')
-YOLO_WEIGHTS = os.path.join(BASE_PATH, 'best.pt')
+YOLO_WEIGHTS = os.path.join('/home/bizon/xiang/new_computer/', 'best.pt')
 EXERCISE_JSON = os.path.join(BASE_PATH, 'exercise_generate_最新.json')
-GENERATE_VIDEO_PATH = os.path.join(BASE_PATH, 'generate_video')
+GENERATE_VIDEO_PATH = os.path.join(BASE_PATH, 'generate_video/jan12')
 
 def verify_and_import():
     """验证所需路径和导入必要模块"""

@@ -6,3 +6,5 @@
 /SimpleRuleExtraction/__pycache__
 *.mp4
 /SimpleRuleExtraction/yolov7
+Xiang_scripts/src/__pycache__/
+Xiang_scripts/yolov7
