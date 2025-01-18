@@ -163,9 +163,9 @@ def process_all_videos(video_dir, generate_dir, output_base_dir):
 if __name__ == "__main__":
     # 更新基础路径为新电脑的路径
     BASE_PATH = '/home/bizon/dong/RuleExtraction/Xiang_scripts'
-    VIDEO_PATH = os.path.join(BASE_PATH, 'videos/jan12')
-    GENERATE_VIDEO_PATH = os.path.join(BASE_PATH, 'generate_video/jan12')
-    COMBINED_VIDEO_PATH = os.path.join(BASE_PATH, 'combined_video/jan12')
+    VIDEO_PATH = os.path.join(BASE_PATH, 'videos/Jan13_Z200_Videos')
+    GENERATE_VIDEO_PATH = os.path.join(BASE_PATH, 'generate_video/Jan13_Z200_Videos')
+    COMBINED_VIDEO_PATH = os.path.join(BASE_PATH, 'combined_video/Jan13_Z200_Videos')
 
     print("开始处理视频...")
     process_all_videos(VIDEO_PATH, GENERATE_VIDEO_PATH, COMBINED_VIDEO_PATH)

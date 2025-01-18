@@ -1,0 +1,6294 @@
+Starting program...
+Successfully imported required modules from src
+
+找到 2712 个视频文件
+
+开始处理视频: video_Barbell_Front_Squat_Camera_R250_Z200_A240.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Barbell_Front_Squat_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Abdominals_Stretch_-1_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/17)
+警告: 视频 video_Abdominals_Stretch_-1_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Single_Arm_Press_Camera_R250_Z200_A150.mp4
+检测到的设备: Kettlebell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/13)
+警告: 视频 video_Single_Arm_Press_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Forearms_Stretch_-2_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/12)
+警告: 视频 video_Forearms_Stretch_-2_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Assisted_Bulgarian_Split_Squat_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 100.00% (68/68)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "bent"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "bent"
+  }
+}
+
+Frame 30 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "bent"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "bent"
+  }
+}
+
+Frame 60 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "bent"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "straight"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Assisted_Bulgarian_Split_Squat_Camera_R250_Z200_A0_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Assisted_Bulgarian_Split_Squat_Camera_R250_Z200_A0_features.mp4
+
+开始处理视频: video_Leg_Extension_Camera_R250_Z200_A240.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 100.00% (8/8)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "straight"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "bent"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Leg_Extension_Camera_R250_Z200_A240_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Leg_Extension_Camera_R250_Z200_A240_features.mp4
+
+开始处理视频: video_Bodyweight_Curtsy_Lunge_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 95.45% (21/22)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Bodyweight_Curtsy_Lunge_Camera_R250_Z200_A270_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Bodyweight_Curtsy_Lunge_Camera_R250_Z200_A270_features.mp4
+
+开始处理视频: video_Dumbell_Thruster_2_Camera_R250_Z200_A300.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 90.91% (10/11)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbell_Thruster_2_Camera_R250_Z200_A300_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbell_Thruster_2_Camera_R250_Z200_A300_features.mp4
+
+开始处理视频: video_Jump_squads_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/35)
+警告: 视频 video_Jump_squads_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Kettlebell_Glute_Bridge_Camera_R250_Z200_A150.mp4
+检测到的设备: Kettlebell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Kettlebell_Glute_Bridge_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Front_Squat_Olympic_Camera_R250_Z200_A0.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Front_Squat_Olympic_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_30_Degree_Shrug_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_30_Degree_Shrug_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Incline_Chest_Fly_Camera_R250_Z200_A0.mp4
+检测到的设备: Kettlebell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/13)
+警告: 视频 video_Incline_Chest_Fly_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_Bench_Press_Camera_R250_Z200_A240.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/7)
+警告: 视频 video_Barbell_Bench_Press_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Hollow_Hold_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/7)
+警告: 视频 video_Dumbbell_Hollow_Hold_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Squeeze_Press_Camera_R250_Z200_A270.mp4
+检测到的设备: Kettlebell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Squeeze_Press_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Biceps_Stretch_-2_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/14)
+警告: 视频 video_Biceps_Stretch_-2_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Machine_Seated_Calf_Raises_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 100.00% (14/14)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "straight"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "bent"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Machine_Seated_Calf_Raises_Camera_R250_Z200_A0_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Machine_Seated_Calf_Raises_Camera_R250_Z200_A0_features.mp4
+
+开始处理视频: video_Situp_with_Kettlebells__Camera_R250_Z200_A0.mp4
+检测到的设备: Kettlebell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/14)
+警告: 视频 video_Situp_with_Kettlebells__Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Quads_Stretch_-4_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/15)
+警告: 视频 video_Quads_Stretch_-4_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Cable_Calve_Raise_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Cable_Calve_Raise_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_incline_chest_fly_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/6)
+警告: 视频 video_Dumbbell_incline_chest_fly_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_Sumo_Deadlift_Camera_R250_Z200_A0.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Barbell_Sumo_Deadlift_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Kettlebell_Goblet_Squat_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Kettlebell_Goblet_Squat_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Pull_In_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Pull_In_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Kettlebell_Row_Camera_R250_Z200_A240.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Kettlebell_Row_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Band_Romanian_Deadlift_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 83.33% (10/12)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Band_Romanian_Deadlift_Camera_R250_Z200_A300_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Band_Romanian_Deadlift_Camera_R250_Z200_A300_features.mp4
+
+开始处理视频: video_Seated_Rear_Delt_Fly_Camera_R250_Z200_A90.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Seated_Rear_Delt_Fly_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Machine_Face_pull_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 100.00% (10/10)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "bent"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "straight"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Machine_Face_pull_Camera_R250_Z200_A300_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Machine_Face_pull_Camera_R250_Z200_A300_features.mp4
+
+开始处理视频: video_Coan_Deadlift_Camera_R250_Z200_A240.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Coan_Deadlift_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Goblet_Bulgarian_Split_Squat_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/22)
+警告: 视频 video_Dumbbell_Goblet_Bulgarian_Split_Squat_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Band_Pallof_Press_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Band_Pallof_Press_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Behind_The_Back_Barbell_Wrist_Curl_Camera_R250_Z200_A90.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/8)
+警告: 视频 video_Behind_The_Back_Barbell_Wrist_Curl_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Kettlebell_Staggered_Deadlift_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Kettlebell_Staggered_Deadlift_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Pendlay_Row__Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Dumbbell_Pendlay_Row__Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Single_Army_Chest_Press_Camera_R250_Z200_A0.mp4
+检测到的设备: Kettlebell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/18)
+警告: 视频 video_Single_Army_Chest_Press_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Larsen_Bench_Press_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Larsen_Bench_Press_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Band_Shrug_Camera_R250_Z200_A240.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 100.00% (10/10)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "straight"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "straight"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Band_Shrug_Camera_R250_Z200_A240_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Band_Shrug_Camera_R250_Z200_A240_features.mp4
+
+开始处理视频: video_Larsen_Bench_Press_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 66.67% (6/9)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Larsen_Bench_Press_Camera_R250_Z200_A150_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Larsen_Bench_Press_Camera_R250_Z200_A150_features.mp4
+
+开始处理视频: video_Goblet_Lateral_Lunge_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 95.65% (22/23)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "bent"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "straight"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Goblet_Lateral_Lunge_Camera_R250_Z200_A90_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Goblet_Lateral_Lunge_Camera_R250_Z200_A90_features.mp4
+
+开始处理视频: video_Incline_Barbell_Bench_Press_2_Camera_R250_Z200_A150.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 70.00% (7/10)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Incline_Barbell_Bench_Press_2_Camera_R250_Z200_A150_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Incline_Barbell_Bench_Press_2_Camera_R250_Z200_A150_features.mp4
+
+开始处理视频: video_Band_Overhead_Press_Camera_R250_Z200_A270.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/13)
+警告: 视频 video_Band_Overhead_Press_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Side_Lunges_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 100.00% (20/20)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "bent"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "straight"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Side_Lunges_Camera_R250_Z200_A90_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Side_Lunges_Camera_R250_Z200_A90_features.mp4
+
+开始处理视频: video_Barbell_Landmine_Row_Camera_R250_Z200_A150.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/7)
+警告: 视频 video_Barbell_Landmine_Row_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Z-Press_Camera_R250_Z200_A240.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/8)
+警告: 视频 video_Z-Press_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Kettlebell_Goblet_Squat_Camera_R250_Z200_A240.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Kettlebell_Goblet_Squat_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_cable_hammer_curl_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 85.71% (6/7)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_cable_hammer_curl_Camera_R250_Z200_A270_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_cable_hammer_curl_Camera_R250_Z200_A270_features.mp4
+
+开始处理视频: video_Dumbbell_Renegade_Row_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/12)
+警告: 视频 video_Dumbbell_Renegade_Row_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Overhead_Side_Bend_Dumbbells_Camera_R250_Z200_A0.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/20)
+警告: 视频 video_Overhead_Side_Bend_Dumbbells_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Standing_Arnold_Press_Camera_R250_Z200_A150.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/11)
+警告: 视频 video_Dumbbell_Standing_Arnold_Press_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Rollouts_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 66.67% (8/12)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Rollouts_Camera_R250_Z200_A300_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Rollouts_Camera_R250_Z200_A300_features.mp4
+
+开始处理视频: video_Dumbbell_Incline_Chest_Flys_Camera_R250_Z200_A150.mp4
+检测到的设备: Kettlebell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/6)
+警告: 视频 video_Dumbbell_Incline_Chest_Flys_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Overhead_Tricep_Extension_Camera_R250_Z200_A270.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Dumbbell_Overhead_Tricep_Extension_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Seated_Overhead_Press_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Dumbbell_Seated_Overhead_Press_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Goblet_Bulgarian_Split_Squat_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/22)
+警告: 视频 video_Dumbbell_Goblet_Bulgarian_Split_Squat_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Heels_Up_Squat_-_Bodyweight(1)_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Heels_Up_Squat_-_Bodyweight(1)_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Spanish_squat_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 62.50% (5/8)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Spanish_squat_Camera_R250_Z200_A300_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Spanish_squat_Camera_R250_Z200_A300_features.mp4
+
+开始处理视频: video_Kettlebell_Wrist_Extension_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Kettlebell_Wrist_Extension_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Bodyweight_Hollow_Hold_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/7)
+警告: 视频 video_Bodyweight_Hollow_Hold_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Cable_Pec_Fly_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 100.00% (10/10)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "bent"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "straight"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Cable_Pec_Fly_Camera_R250_Z200_A150_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Cable_Pec_Fly_Camera_R250_Z200_A150_features.mp4
+
+开始处理视频: video_Single_Arm_Arnold_Press_Camera_R250_Z200_A0.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/25)
+警告: 视频 video_Single_Arm_Arnold_Press_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Band_Skullcrusher_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Band_Skullcrusher_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Hamstrings_Stretch_-2_Camera_R250_Z200_A240.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 90.38% (47/52)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 30 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "straight"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "straight"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Hamstrings_Stretch_-2_Camera_R250_Z200_A240_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Hamstrings_Stretch_-2_Camera_R250_Z200_A240_features.mp4
+
+开始处理视频: video_Band_Front_Raise_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/8)
+警告: 视频 video_Band_Front_Raise_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Bench_Press_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Dumbbell_Bench_Press_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Bodyweight_Split_Squat_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 93.33% (28/30)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Bodyweight_Split_Squat_Camera_R250_Z200_A0_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Bodyweight_Split_Squat_Camera_R250_Z200_A0_features.mp4
+
+开始处理视频: video_Heels_Up_Narrow_Goblet_Squat_Camera_R250_Z200_A240.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Heels_Up_Narrow_Goblet_Squat_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Kettlebell_Goblet_Curl_Camera_R250_Z200_A150.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/7)
+警告: 视频 video_Kettlebell_Goblet_Curl_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Hip_Thrust_Camera_R250_Z200_A90.mp4
+检测到的设备: Kettlebell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Dumbbell_Hip_Thrust_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Farmers_Carry_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 88.89% (8/9)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Farmers_Carry_Camera_R250_Z200_A150_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Farmers_Carry_Camera_R250_Z200_A150_features.mp4
+
+开始处理视频: video_Dumbbell_Incline_Zottman_Curl_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 100.00% (10/10)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "straight"
+  },
+  "body": {
+    "position": "bent"
+  },
+  "leg": {
+    "state": "bent"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbbell_Incline_Zottman_Curl_Camera_R250_Z200_A0_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbbell_Incline_Zottman_Curl_Camera_R250_Z200_A0_features.mp4
+
+开始处理视频: video_Triceps_Stretch_-1_Camera_R250_Z200_A0.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/21)
+警告: 视频 video_Triceps_Stretch_-1_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Band_Single_Arm_Pec_Fly_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/7)
+警告: 视频 video_Band_Single_Arm_Pec_Fly_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Incline_Reverse_Curl_Camera_R250_Z200_A240.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 100.00% (11/11)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: Dumbell
+特征数据: {
+  "equipment": "dumbell",
+  "arm": {
+    "position": "down",
+    "state": "straight"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "bent"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbbell_Incline_Reverse_Curl_Camera_R250_Z200_A240_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbbell_Incline_Reverse_Curl_Camera_R250_Z200_A240_features.mp4
+
+开始处理视频: video_Glutes_Stretch_-2_Camera_R250_Z200_A240.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/11)
+警告: 视频 video_Glutes_Stretch_-2_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Abdominals_Stretch_-1_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/17)
+警告: 视频 video_Abdominals_Stretch_-1_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Cable_Glute_Kickback_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 100.00% (12/12)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "bent"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "straight"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Cable_Glute_Kickback_Camera_R250_Z200_A90_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Cable_Glute_Kickback_Camera_R250_Z200_A90_features.mp4
+
+开始处理视频: video_Forward_Lunge_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/24)
+警告: 视频 video_Forward_Lunge_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Inverted_Row_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Inverted_Row_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Bench_Press_Camera_R250_Z200_A0.mp4
+检测到的设备: Kettlebell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Dumbbell_Bench_Press_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Diamond_Push_Ups_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/11)
+警告: 视频 video_Diamond_Push_Ups_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Band_Pushup_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 85.71% (6/7)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Band_Pushup_Camera_R250_Z200_A0_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Band_Pushup_Camera_R250_Z200_A0_features.mp4
+
+开始处理视频: video_Staggered_Deadlift_Dumbbells_Camera_R250_Z200_A90.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Staggered_Deadlift_Dumbbells_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Single_Arm_Spider_Curl__Camera_R250_Z200_A90.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Dumbbell_Single_Arm_Spider_Curl__Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Row_Bilateral_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Dumbbell_Row_Bilateral_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dips_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/7)
+警告: 视频 video_Dips_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Seated_Arnold_Press_Camera_R250_Z200_A0.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/12)
+警告: 视频 video_Seated_Arnold_Press_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Glutes_Stretch_-2_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/11)
+警告: 视频 video_Glutes_Stretch_-2_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Lower_back_Stretch_-2_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/39)
+警告: 视频 video_Lower_back_Stretch_-2_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Farmers_Carry_Camera_R250_Z200_A300.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 100.00% (9/9)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: Dumbell
+特征数据: {
+  "equipment": "dumbell",
+  "arm": {
+    "position": "down",
+    "state": "straight"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "bent"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Farmers_Carry_Camera_R250_Z200_A300_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Farmers_Carry_Camera_R250_Z200_A300_features.mp4
+
+开始处理视频: video_Dumbbell_Laying_Reverse_Fly_Camera_R250_Z200_A150.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 100.00% (10/10)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: Barbell
+特征数据: {
+  "equipment": "barbell",
+  "arm": {
+    "position": "down",
+    "state": "bent"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "straight"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbbell_Laying_Reverse_Fly_Camera_R250_Z200_A150_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbbell_Laying_Reverse_Fly_Camera_R250_Z200_A150_features.mp4
+
+开始处理视频: video_Band_Pullover_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/8)
+警告: 视频 video_Band_Pullover_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Single_Arm_Rear_Delt_Fly_Camera_R250_Z200_A240.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 84.21% (16/19)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Single_Arm_Rear_Delt_Fly_Camera_R250_Z200_A240_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Single_Arm_Rear_Delt_Fly_Camera_R250_Z200_A240_features.mp4
+
+开始处理视频: video_Barbell_Silverback_Shrug_Camera_R250_Z200_A240.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Barbell_Silverback_Shrug_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Renegade_Row_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/12)
+警告: 视频 video_Dumbbell_Renegade_Row_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Forward_Lunge_2_Camera_R250_Z200_A300.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 87.50% (21/24)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbbell_Forward_Lunge_2_Camera_R250_Z200_A300_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbbell_Forward_Lunge_2_Camera_R250_Z200_A300_features.mp4
+
+开始处理视频: video_Kettlebell_Glute_Bridge_Camera_R250_Z200_A240.mp4
+检测到的设备: Kettlebell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Kettlebell_Glute_Bridge_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Band_Glute_Kickback_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 100.00% (9/9)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "bent"
+  },
+  "body": {
+    "position": "bent"
+  },
+  "leg": {
+    "state": "bent"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Band_Glute_Kickback_Camera_R250_Z200_A150_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Band_Glute_Kickback_Camera_R250_Z200_A150_features.mp4
+
+开始处理视频: video_Laying_Reverse_Fly_Camera_R250_Z200_A240.mp4
+检测到的设备: Ball
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Laying_Reverse_Fly_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Abdominals_Stretch_2-2_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/17)
+警告: 视频 video_Abdominals_Stretch_2-2_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Cable_Lat_prayer_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 90.00% (9/10)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Cable_Lat_prayer_Camera_R250_Z200_A270_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Cable_Lat_prayer_Camera_R250_Z200_A270_features.mp4
+
+开始处理视频: video_Single_Legged_Romanian_Deadlifts_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/19)
+警告: 视频 video_Single_Legged_Romanian_Deadlifts_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Incline_Chest_Flys_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/6)
+警告: 视频 video_Dumbbell_Incline_Chest_Flys_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_Supinated_Pendlay_Row_Camera_R250_Z200_A150.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Barbell_Supinated_Pendlay_Row_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Single_Arm_Preacher_Curl__Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/7)
+警告: 视频 video_Dumbbell_Single_Arm_Preacher_Curl__Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Figure_Four_Glute_Bridge]_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/8)
+警告: 视频 video_Dumbbell_Figure_Four_Glute_Bridge]_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Forward_Lunge_2_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/24)
+警告: 视频 video_Dumbbell_Forward_Lunge_2_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Cable_Pallof_Press_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Cable_Pallof_Press_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Forearms_Stretch_-1_Camera_R250_Z200_A240.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/12)
+警告: 视频 video_Forearms_Stretch_-1_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Single_Arm_Chest_Press_Camera_R250_Z200_A240.mp4
+检测到的设备: Kettlebell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/13)
+警告: 视频 video_Single_Arm_Chest_Press_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Pullover_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 80.00% (8/10)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbbell_Pullover_Camera_R250_Z200_A0_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbbell_Pullover_Camera_R250_Z200_A0_features.mp4
+
+开始处理视频: video_Dumbell_Goblet_Squat_Camera_R250_Z200_A270.mp4
+检测到的设备: Kettlebell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/15)
+警告: 视频 video_Dumbell_Goblet_Squat_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Front_Raise_Camera_R250_Z200_A240.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 100.00% (11/11)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: Barbell
+特征数据: {
+  "equipment": "barbell",
+  "arm": {
+    "position": "down",
+    "state": "straight"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "straight"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbbell_Front_Raise_Camera_R250_Z200_A240_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbbell_Front_Raise_Camera_R250_Z200_A240_features.mp4
+
+开始处理视频: video_Traps_Stretch_-3_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Traps_Stretch_-3_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Bench_Press_2_Camera_R250_Z200_A0.mp4
+检测到的设备: Kettlebell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Dumbbell_Bench_Press_2_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Single_Arm_Neutral_Overhead_Press_Camera_R250_Z200_A300.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 100.00% (26/26)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: Dumbell
+特征数据: {
+  "equipment": "dumbell",
+  "arm": {
+    "position": "down",
+    "state": "bent"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "bent"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Single_Arm_Neutral_Overhead_Press_Camera_R250_Z200_A300_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Single_Arm_Neutral_Overhead_Press_Camera_R250_Z200_A300_features.mp4
+
+开始处理视频: video_Decline_Push_Up_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/11)
+警告: 视频 video_Decline_Push_Up_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Kettlebells_Standing_Tricep_Extension_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Kettlebells_Standing_Tricep_Extension_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Hanging_Knee_Raises_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Hanging_Knee_Raises_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Kettlebell_Tate_Press_Camera_R250_Z200_A240.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/16)
+警告: 视频 video_Kettlebell_Tate_Press_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Lats_Stretch_-1_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Lats_Stretch_-1_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_Front_Raise_Camera_R250_Z200_A270.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Barbell_Front_Raise_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Incline_Shrug_Camera_R250_Z200_A240.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/7)
+警告: 视频 video_Incline_Shrug_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Single_Arm_Arnold_Press_Camera_R250_Z200_A270.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/25)
+警告: 视频 video_Single_Arm_Arnold_Press_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Staggered_Deadlift_Dumbbells_Camera_R250_Z200_A300.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Staggered_Deadlift_Dumbbells_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Kettlebell_Silverback_Shrug_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/7)
+警告: 视频 video_Kettlebell_Silverback_Shrug_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Glutes_Stretch_-2_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/11)
+警告: 视频 video_Glutes_Stretch_-2_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Kettlebell_Shoulder_extention_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 100.00% (17/17)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "straight"
+  },
+  "body": {
+    "position": "bent"
+  },
+  "leg": {
+    "state": "bent"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Kettlebell_Shoulder_extention_Camera_R250_Z200_A150_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Kettlebell_Shoulder_extention_Camera_R250_Z200_A150_features.mp4
+
+开始处理视频: video_Hamstrings_Stretch_-1_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/30)
+警告: 视频 video_Hamstrings_Stretch_-1_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Biceps_Stretch_-2_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/14)
+警告: 视频 video_Biceps_Stretch_-2_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Reverse_Deadlift_Camera_R250_Z200_A270.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Reverse_Deadlift_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Shoulders_Stretch_-4_Camera_R250_Z200_A300.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/30)
+警告: 视频 video_Shoulders_Stretch_-4_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Shoulders_Stretch_-1_Camera_R250_Z200_A150.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/21)
+警告: 视频 video_Shoulders_Stretch_-1_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Spoto_Press_Camera_R250_Z200_A90.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Spoto_Press_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Triceps_Stretch_-2_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/18)
+警告: 视频 video_Triceps_Stretch_-2_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Larsen_Bench_Press_Camera_R250_Z200_A270.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Larsen_Bench_Press_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_Roll_Outs_Camera_R250_Z200_A90.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Barbell_Roll_Outs_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_LegPress_Camera_R250_Z200_A270.mp4
+检测到的设备: Kettlebell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/14)
+警告: 视频 video_LegPress_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Bodyweight_Curtsy_Lunge_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 90.91% (20/22)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Bodyweight_Curtsy_Lunge_Camera_R250_Z200_A90_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Bodyweight_Curtsy_Lunge_Camera_R250_Z200_A90_features.mp4
+
+开始处理视频: video_Band_Glute_Kickback_Camera_R250_Z200_A240.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 88.89% (8/9)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Band_Glute_Kickback_Camera_R250_Z200_A240_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Band_Glute_Kickback_Camera_R250_Z200_A240_features.mp4
+
+开始处理视频: video_Neutral_Seated_Overhead_Press_Camera_R250_Z200_A240.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Neutral_Seated_Overhead_Press_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Kettlebell_Decline_Skull_Crusher__Camera_R250_Z200_A0.mp4
+检测到的设备: Kettlebell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Kettlebell_Decline_Skull_Crusher__Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Band_Calf_Raise_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Band_Calf_Raise_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Forward_Lunge_Camera_R250_Z200_A240.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 94.74% (18/19)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbbell_Forward_Lunge_Camera_R250_Z200_A240_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbbell_Forward_Lunge_Camera_R250_Z200_A240_features.mp4
+
+开始处理视频: video_Lower_back_Stretch_-2_Camera_R250_Z200_A240.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/39)
+警告: 视频 video_Lower_back_Stretch_-2_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_Front_Rack_Step_Up_Camera_R250_Z200_A270.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 86.96% (20/23)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Barbell_Front_Rack_Step_Up_Camera_R250_Z200_A270_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Barbell_Front_Rack_Step_Up_Camera_R250_Z200_A270_features.mp4
+
+开始处理视频: video_Cable_Reverse_Curl_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/7)
+警告: 视频 video_Cable_Reverse_Curl_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Single_Arm_Neutral_Overhead_Press_Camera_R250_Z200_A0.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 92.31% (24/26)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Single_Arm_Neutral_Overhead_Press_Camera_R250_Z200_A0_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Single_Arm_Neutral_Overhead_Press_Camera_R250_Z200_A0_features.mp4
+
+开始处理视频: video_Chest_Stretch_-2_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/18)
+警告: 视频 video_Chest_Stretch_-2_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_Silverback_Shrug_Camera_R250_Z200_A0.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Barbell_Silverback_Shrug_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Cable_Overhead_Tricep_Extension_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Cable_Overhead_Tricep_Extension_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_Roll_Outs_Camera_R250_Z200_A300.mp4
+检测到的设备: Ball
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Barbell_Roll_Outs_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Hollow_Hold_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/7)
+警告: 视频 video_Dumbbell_Hollow_Hold_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_Step_Up_Camera_R250_Z200_A300.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 100.00% (30/30)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: Barbell
+特征数据: {
+  "equipment": "barbell",
+  "arm": {
+    "position": "down",
+    "state": "bent"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "bent"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Barbell_Step_Up_Camera_R250_Z200_A300_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Barbell_Step_Up_Camera_R250_Z200_A300_features.mp4
+
+开始处理视频: video_Forward_Lunges_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/26)
+警告: 视频 video_Forward_Lunges_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Traps_Stretch_-3_Camera_R250_Z200_A240.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Traps_Stretch_-3_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Machine_Pulldown_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Machine_Pulldown_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_Pause_Squat_Camera_R250_Z200_A300.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/8)
+警告: 视频 video_Barbell_Pause_Squat_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_Silverback_Shrug-‌bend_Camera_R250_Z200_A0.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/8)
+警告: 视频 video_Barbell_Silverback_Shrug-‌bend_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Shoulders_Stretch_-3_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/30)
+警告: 视频 video_Shoulders_Stretch_-3_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Incline_Barbell_Bench_Press_2_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Incline_Barbell_Bench_Press_2_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Thruster_Camera_R250_Z200_A240.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/11)
+警告: 视频 video_Thruster_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Kettlebell_Wood_Chopper_Camera_R250_Z200_A0.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/8)
+警告: 视频 video_Kettlebell_Wood_Chopper_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Spoto_Press_Camera_R250_Z200_A270.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Spoto_Press_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Decline_Chest_Press_Camera_R250_Z200_A90.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Dumbbell_Decline_Chest_Press_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_30_Degree_Shrug_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_30_Degree_Shrug_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Lower_back_Stretch_-1_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/21)
+警告: 视频 video_Lower_back_Stretch_-1_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Farmers_Carry_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 88.89% (8/9)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Farmers_Carry_Camera_R250_Z200_A0_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Farmers_Carry_Camera_R250_Z200_A0_features.mp4
+
+开始处理视频: video_Bodyweight_Split_Squat_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 96.67% (29/30)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Bodyweight_Split_Squat_Camera_R250_Z200_A270_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Bodyweight_Split_Squat_Camera_R250_Z200_A270_features.mp4
+
+开始处理视频: video_Band_Romanian_Deadlift_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 75.00% (9/12)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Band_Romanian_Deadlift_Camera_R250_Z200_A0_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Band_Romanian_Deadlift_Camera_R250_Z200_A0_features.mp4
+
+开始处理视频: video_Stiff_Leg_Deadlifts_Camera_R250_Z200_A90.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/12)
+警告: 视频 video_Stiff_Leg_Deadlifts_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dips_Narrow_Elbows_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 85.71% (6/7)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dips_Narrow_Elbows_Camera_R250_Z200_A90_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dips_Narrow_Elbows_Camera_R250_Z200_A90_features.mp4
+
+开始处理视频: video_Hand_Side_Plank_Dumbbells_Camera_R250_Z200_A240.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/11)
+警告: 视频 video_Hand_Side_Plank_Dumbbells_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbells_Single_Leg_Stiff_Leg_Deadlift__Camera_R250_Z200_A270.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Dumbbells_Single_Leg_Stiff_Leg_Deadlift__Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Situp_with_Kettlebells__Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/14)
+警告: 视频 video_Situp_with_Kettlebells__Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Bodyweight_Russian_Twist_Camera_R250_Z200_A240.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Bodyweight_Russian_Twist_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Staggered_Glute_Bridge_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Dumbbell_Staggered_Glute_Bridge_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Pullover_Camera_R250_Z200_A270.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 100.00% (10/10)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: Dumbell
+特征数据: {
+  "equipment": "dumbell",
+  "arm": {
+    "position": "down",
+    "state": "straight"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "bent"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbbell_Pullover_Camera_R250_Z200_A270_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbbell_Pullover_Camera_R250_Z200_A270_features.mp4
+
+开始处理视频: video_Biceps_Stretch_-4_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/14)
+警告: 视频 video_Biceps_Stretch_-4_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Cable_Pull_Through_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/13)
+警告: 视频 video_Cable_Pull_Through_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_and_weight_Curtsy_Lunge_Camera_R250_Z200_A150.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 85.00% (17/20)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Barbell_and_weight_Curtsy_Lunge_Camera_R250_Z200_A150_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Barbell_and_weight_Curtsy_Lunge_Camera_R250_Z200_A150_features.mp4
+
+开始处理视频: video_Abdominals_Stretch_-3_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 93.55% (29/31)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Abdominals_Stretch_-3_Camera_R250_Z200_A300_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Abdominals_Stretch_-3_Camera_R250_Z200_A300_features.mp4
+
+开始处理视频: video_Dumbell_Overhead_Press_Camera_R250_Z200_A0.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Dumbell_Overhead_Press_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Neutral_Overhead_Press_Camera_R250_Z200_A270.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/11)
+警告: 视频 video_Neutral_Overhead_Press_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbel_Shrugs_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Dumbbel_Shrugs_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Band_Skullcrusher_Camera_R250_Z200_A0.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Band_Skullcrusher_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Single_Arm_Neutral_Overhead_Press_Camera_R250_Z200_A240.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 100.00% (26/26)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: Dumbell
+特征数据: {
+  "equipment": "dumbell",
+  "arm": {
+    "position": "down",
+    "state": "bent"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "bent"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Single_Arm_Neutral_Overhead_Press_Camera_R250_Z200_A240_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Single_Arm_Neutral_Overhead_Press_Camera_R250_Z200_A240_features.mp4
+
+开始处理视频: video_Dumbell_Thruster_2_Camera_R250_Z200_A270.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 90.91% (10/11)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbell_Thruster_2_Camera_R250_Z200_A270_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbell_Thruster_2_Camera_R250_Z200_A270_features.mp4
+
+开始处理视频: video_Barbell_Reverse_Lunge_Camera_R250_Z200_A0.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 90.91% (20/22)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Barbell_Reverse_Lunge_Camera_R250_Z200_A0_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Barbell_Reverse_Lunge_Camera_R250_Z200_A0_features.mp4
+
+开始处理视频: video_Cable_Lateral_Raise_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Cable_Lateral_Raise_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Standing_Leg_Extension_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/6)
+警告: 视频 video_Standing_Leg_Extension_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Single_Arm_Arnold_Press_Camera_R250_Z200_A240.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/25)
+警告: 视频 video_Single_Arm_Arnold_Press_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_High_Bar_Squat_Camera_R250_Z200_A150.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 81.82% (9/11)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Barbell_High_Bar_Squat_Camera_R250_Z200_A150_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Barbell_High_Bar_Squat_Camera_R250_Z200_A150_features.mp4
+
+开始处理视频: video_Dumbbell_Rolling_Tricep_Extension_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 86.67% (13/15)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbbell_Rolling_Tricep_Extension_Camera_R250_Z200_A0_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbbell_Rolling_Tricep_Extension_Camera_R250_Z200_A0_features.mp4
+
+开始处理视频: video_Band_Pull_Apart_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Band_Pull_Apart_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Snatch_Grip_Romanian_Deadlift_Camera_R250_Z200_A150.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Snatch_Grip_Romanian_Deadlift_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Kettlebell_Goblet_Curl_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/7)
+警告: 视频 video_Kettlebell_Goblet_Curl_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbell_Silverback_Shrug_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/7)
+警告: 视频 video_Dumbell_Silverback_Shrug_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Supermans_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Supermans_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Renegade_Row_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/12)
+警告: 视频 video_Dumbbell_Renegade_Row_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Goblet_Reverse_Lunge_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/19)
+警告: 视频 video_Goblet_Reverse_Lunge_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Assisted_Bulgarian_Split_Squat_Camera_R250_Z200_A120.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 100.00% (68/68)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "straight"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "straight"
+  }
+}
+
+Frame 30 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "straight"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "straight"
+  }
+}
+
+Frame 60 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "straight"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "straight"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Assisted_Bulgarian_Split_Squat_Camera_R250_Z200_A120_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Assisted_Bulgarian_Split_Squat_Camera_R250_Z200_A120_features.mp4
+
+开始处理视频: video_Pushdown_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Pushdown_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Kettlebell_Goblet_Good_Morning_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/11)
+警告: 视频 video_Kettlebell_Goblet_Good_Morning_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Bodyweight_Reverse_Step_Up_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 36.36% (8/22)
+警告: 视频 video_Bodyweight_Reverse_Step_Up_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_Single_Leg_Deadlift_Camera_R250_Z200_A270.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Barbell_Single_Leg_Deadlift_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Supermans_Camera_R250_Z200_A240.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Supermans_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Elevated_Pike_Press_Camera_R250_Z200_A90.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Elevated_Pike_Press_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Bodyweight_Reverse_Step_Up_Camera_R250_Z200_A240.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 90.91% (20/22)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Bodyweight_Reverse_Step_Up_Camera_R250_Z200_A240_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Bodyweight_Reverse_Step_Up_Camera_R250_Z200_A240_features.mp4
+
+开始处理视频: video_Floor_Press_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/12)
+警告: 视频 video_Floor_Press_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Side_Plank_Reach_Through_Camera_R250_Z200_A240.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/17)
+警告: 视频 video_Side_Plank_Reach_Through_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Machine_Silverback_Shrug_Straight_Camera_R250_Z200_A240.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Machine_Silverback_Shrug_Straight_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_Supinated_Pendlay_Row_Camera_R250_Z200_A300.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Barbell_Supinated_Pendlay_Row_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Shoulder_Extension_Single_Arm_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 100.00% (11/11)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "straight"
+  },
+  "body": {
+    "position": "bent"
+  },
+  "leg": {
+    "state": "bent"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbbell_Shoulder_Extension_Single_Arm_Camera_R250_Z200_A0_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbbell_Shoulder_Extension_Single_Arm_Camera_R250_Z200_A0_features.mp4
+
+开始处理视频: video_Forearm_Plank_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/22)
+警告: 视频 video_Forearm_Plank_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Single_Arm_Spider_Curl__Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 100.00% (10/10)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "bent"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "straight"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbbell_Single_Arm_Spider_Curl__Camera_R250_Z200_A150_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbbell_Single_Arm_Spider_Curl__Camera_R250_Z200_A150_features.mp4
+
+开始处理视频: video_Cable_Reverse_Curl_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 85.71% (6/7)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Cable_Reverse_Curl_Camera_R250_Z200_A270_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Cable_Reverse_Curl_Camera_R250_Z200_A270_features.mp4
+
+开始处理视频: video_Kettlebell_Seated_Calf_Raises_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/14)
+警告: 视频 video_Kettlebell_Seated_Calf_Raises_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbell_Overhead_Press_Camera_R250_Z200_A300.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Dumbell_Overhead_Press_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Kettlebell_Preacher_Curl_2_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/7)
+警告: 视频 video_Kettlebell_Preacher_Curl_2_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Rolling_Tricep_Extension_Camera_R250_Z200_A150.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/15)
+警告: 视频 video_Dumbbell_Rolling_Tricep_Extension_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Single_Leg_Glute_Bridge_Camera_R250_Z200_A270.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/30)
+警告: 视频 video_Dumbbell_Single_Leg_Glute_Bridge_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Kickbacks_Camera_R250_Z200_A240.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/20)
+警告: 视频 video_Kickbacks_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Bodyweight_Lateral_Lunge_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 42.31% (11/26)
+警告: 视频 video_Bodyweight_Lateral_Lunge_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_incline_chest_fly_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 100.00% (6/6)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "bent"
+  },
+  "body": {
+    "position": "bent"
+  },
+  "leg": {
+    "state": "bent"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbbell_incline_chest_fly_Camera_R250_Z200_A0_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbbell_incline_chest_fly_Camera_R250_Z200_A0_features.mp4
+
+开始处理视频: video_Overhead_Side_Bend_Dumbbells_Camera_R250_Z200_A270.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/20)
+警告: 视频 video_Overhead_Side_Bend_Dumbbells_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_Low_Bar_Good_Morning_Camera_R250_Z200_A90.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/11)
+警告: 视频 video_Barbell_Low_Bar_Good_Morning_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Band_Reverse_Curl_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/7)
+警告: 视频 video_Band_Reverse_Curl_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Laying_Incline_Row_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 77.78% (7/9)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbbell_Laying_Incline_Row_Camera_R250_Z200_A270_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbbell_Laying_Incline_Row_Camera_R250_Z200_A270_features.mp4
+
+开始处理视频: video_Band_Single_Arm_Chest_Press_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/7)
+警告: 视频 video_Band_Single_Arm_Chest_Press_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Shoulders_Stretch_-3_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/30)
+警告: 视频 video_Shoulders_Stretch_-3_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_Hip_Thrust_Camera_R250_Z200_A90.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Barbell_Hip_Thrust_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Cable_Reverse_Curl_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 85.71% (6/7)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Cable_Reverse_Curl_Camera_R250_Z200_A0_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Cable_Reverse_Curl_Camera_R250_Z200_A0_features.mp4
+
+开始处理视频: video_Chest_Stretch_-1_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Chest_Stretch_-1_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_situp_handsup_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Dumbbell_situp_handsup_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Band_Single_Arm_Overhead_Press_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Band_Single_Arm_Overhead_Press_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Wrist_Extension_Camera_R250_Z200_A300.mp4
+检测到的设备: Kettlebell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/8)
+警告: 视频 video_Dumbbell_Wrist_Extension_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Lats_Stretch_-2_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 93.55% (29/31)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Lats_Stretch_-2_Camera_R250_Z200_A300_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Lats_Stretch_-2_Camera_R250_Z200_A300_features.mp4
+
+开始处理视频: video_Cable_Wood_Chopper_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/8)
+警告: 视频 video_Cable_Wood_Chopper_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Incline_Chest_Fly(1)_Camera_R250_Z200_A300.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/13)
+警告: 视频 video_Incline_Chest_Fly(1)_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Kettlebell_Wrist_Curl_Camera_R250_Z200_A240.mp4
+检测到的设备: Kettlebell
+收集关节位置数据...
+
+有效帧率: 88.89% (8/9)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Kettlebell_Wrist_Curl_Camera_R250_Z200_A240_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Kettlebell_Wrist_Curl_Camera_R250_Z200_A240_features.mp4
+
+开始处理视频: video_Band_Glute_Kickback_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Band_Glute_Kickback_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_High_Bar_Good_Morning_Camera_R250_Z200_A90.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/11)
+警告: 视频 video_Barbell_High_Bar_Good_Morning_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Forward_Lunge_2_Camera_R250_Z200_A270.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 79.17% (19/24)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbbell_Forward_Lunge_2_Camera_R250_Z200_A270_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbbell_Forward_Lunge_2_Camera_R250_Z200_A270_features.mp4
+
+开始处理视频: video_Cable_Lat_prayer_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Cable_Lat_prayer_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Biceps_Stretch_-4_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/14)
+警告: 视频 video_Biceps_Stretch_-4_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Kettlebell_Preacher_Curl_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/7)
+警告: 视频 video_Kettlebell_Preacher_Curl_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Tricep_kickback_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/8)
+警告: 视频 video_Tricep_kickback_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Band_Curl_Camera_R250_Z200_A240.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 100.00% (7/7)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "straight"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "straight"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Band_Curl_Camera_R250_Z200_A240_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Band_Curl_Camera_R250_Z200_A240_features.mp4
+
+开始处理视频: video_Kettlebell_Preacher_Curl_2_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/7)
+警告: 视频 video_Kettlebell_Preacher_Curl_2_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Kettlebell_Wrist_Curl_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Kettlebell_Wrist_Curl_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Bodyweight_Forward_Lunge_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 83.33% (20/24)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Bodyweight_Forward_Lunge_Camera_R250_Z200_A270_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Bodyweight_Forward_Lunge_Camera_R250_Z200_A270_features.mp4
+
+开始处理视频: video_Cable_Twisting_Curl_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/7)
+警告: 视频 video_Cable_Twisting_Curl_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Forearms_Stretch_-1_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/12)
+警告: 视频 video_Forearms_Stretch_-1_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Forward_Lunge_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/19)
+警告: 视频 video_Dumbbell_Forward_Lunge_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Kettlebell_shrugs_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/7)
+警告: 视频 video_Kettlebell_shrugs_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Kickbacks_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/20)
+警告: 视频 video_Kickbacks_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Chin_Ups_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 33.33% (3/9)
+警告: 视频 video_Chin_Ups_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Band_Reverse_Curl_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 100.00% (7/7)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "straight"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "straight"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Band_Reverse_Curl_Camera_R250_Z200_A270_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Band_Reverse_Curl_Camera_R250_Z200_A270_features.mp4
+
+开始处理视频: video_Standing_Leg_Extension_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/6)
+警告: 视频 video_Standing_Leg_Extension_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Decline_Guillotine_Bench_Press_Camera_R250_Z200_A150.mp4
+检测到的设备: Kettlebell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/11)
+警告: 视频 video_Dumbbell_Decline_Guillotine_Bench_Press_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Machine_Hamstring_Curl_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 90.91% (10/11)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Machine_Hamstring_Curl_Camera_R250_Z200_A300_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Machine_Hamstring_Curl_Camera_R250_Z200_A300_features.mp4
+
+开始处理视频: video_Kettlebell_Single_Leg_Glute_Bridge_Camera_R250_Z200_A300.mp4
+检测到的设备: Kettlebell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/30)
+警告: 视频 video_Kettlebell_Single_Leg_Glute_Bridge_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Coan_Deadlift_Camera_R250_Z200_A0.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Coan_Deadlift_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Machine_Standing_Calf_Raises_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Machine_Standing_Calf_Raises_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Cable_Lateral_Raise_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 100.00% (10/10)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "straight"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "straight"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Cable_Lateral_Raise_Camera_R250_Z200_A300_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Cable_Lateral_Raise_Camera_R250_Z200_A300_features.mp4
+
+开始处理视频: video_Kettlebell_Preacher_Curl_2_Camera_R250_Z200_A240.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/7)
+警告: 视频 video_Kettlebell_Preacher_Curl_2_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Kettlebell_Staggered_Deadlift_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Kettlebell_Staggered_Deadlift_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Z-Press_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/8)
+警告: 视频 video_Z-Press_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Chest_Fly_Camera_R250_Z200_A270.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Dumbbell_Chest_Fly_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Band_Pullover_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 100.00% (8/8)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "bent"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "bent"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Band_Pullover_Camera_R250_Z200_A150_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Band_Pullover_Camera_R250_Z200_A150_features.mp4
+
+开始处理视频: video_Bodyweight_Glute_Bridge_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Bodyweight_Glute_Bridge_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Heels_Up_Back_Squat_Camera_R250_Z200_A0.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Heels_Up_Back_Squat_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Cable_Twisting_Curl_Camera_R250_Z200_A240.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 85.71% (6/7)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Cable_Twisting_Curl_Camera_R250_Z200_A240_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Cable_Twisting_Curl_Camera_R250_Z200_A240_features.mp4
+
+开始处理视频: video_Single_Arm_Chest_Press_Camera_R250_Z200_A0.mp4
+检测到的设备: Kettlebell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/13)
+警告: 视频 video_Single_Arm_Chest_Press_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Band_Bayesian_Hammer_Curl_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Band_Bayesian_Hammer_Curl_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Single_Army_Chest_Press_Camera_R250_Z200_A300.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/18)
+警告: 视频 video_Single_Army_Chest_Press_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Alternating_seated_arnold_press_Camera_R250_Z200_A240.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/25)
+警告: 视频 video_Alternating_seated_arnold_press_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Rear_Delt_Row_Camera_R250_Z200_A150.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Rear_Delt_Row_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Kettlebell_Chest_Press_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Kettlebell_Chest_Press_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Decline_Guillotine_Bench_Press_Camera_R250_Z200_A240.mp4
+检测到的设备: Kettlebell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/11)
+警告: 视频 video_Dumbbell_Decline_Guillotine_Bench_Press_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Cable_Pallof_Press_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Cable_Pallof_Press_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Kettlebell_Single_Leg_Deadlift_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/8)
+警告: 视频 video_Kettlebell_Single_Leg_Deadlift_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Laying_Reverse_Fly_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 100.00% (10/10)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "bent"
+  },
+  "body": {
+    "position": "bent"
+  },
+  "leg": {
+    "state": "bent"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbbell_Laying_Reverse_Fly_Camera_R250_Z200_A90_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbbell_Laying_Reverse_Fly_Camera_R250_Z200_A90_features.mp4
+
+开始处理视频: video_Kettlebell_Russian_Twist_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/15)
+警告: 视频 video_Kettlebell_Russian_Twist_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Neutral_incline_bench_press_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 100.00% (9/9)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "bent"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "straight"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Neutral_incline_bench_press_Camera_R250_Z200_A270_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Neutral_incline_bench_press_Camera_R250_Z200_A270_features.mp4
+
+开始处理视频: video_Barbell_Overhead_Tricep_Extension_Camera_R250_Z200_A90.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/8)
+警告: 视频 video_Barbell_Overhead_Tricep_Extension_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Bent_Over_Barbell_Row_Camera_R250_Z200_A0.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Bent_Over_Barbell_Row_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Single_Arm_Row__Camera_R250_Z200_A150.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/8)
+警告: 视频 video_Dumbbell_Single_Arm_Row__Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Band_High_Hammer_Curl_Camera_R250_Z200_A90.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/7)
+警告: 视频 video_Band_High_Hammer_Curl_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Traps_Stretch_-3_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Traps_Stretch_-3_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Machine_Pulldown_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Machine_Pulldown_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Calf_Raise_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Dumbbell_Calf_Raise_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Swing_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/5)
+警告: 视频 video_Swing_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Neutral_incline_bench_press_Camera_R250_Z200_A150.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Neutral_incline_bench_press_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Cable_Rope_Kneeling_Crunch_Camera_R250_Z200_A0.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Cable_Rope_Kneeling_Crunch_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Band_Horizontal_Shrug_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/8)
+警告: 视频 video_Band_Horizontal_Shrug_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Cable_Pullover_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Cable_Pullover_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Rear_Delt_Row_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Rear_Delt_Row_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Machine_Seated_Calf_Raises(1)_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 85.71% (12/14)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Machine_Seated_Calf_Raises(1)_Camera_R250_Z200_A150_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Machine_Seated_Calf_Raises(1)_Camera_R250_Z200_A150_features.mp4
+
+开始处理视频: video_Triceps_Stretch_-2_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/18)
+警告: 视频 video_Triceps_Stretch_-2_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_Curtsy_Lunge_Camera_R250_Z200_A300.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 66.67% (14/21)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Barbell_Curtsy_Lunge_Camera_R250_Z200_A300_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Barbell_Curtsy_Lunge_Camera_R250_Z200_A300_features.mp4
+
+开始处理视频: video_Bodyweight_Lateral_Lunge_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 92.31% (24/26)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Bodyweight_Lateral_Lunge_Camera_R250_Z200_A90_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Bodyweight_Lateral_Lunge_Camera_R250_Z200_A90_features.mp4
+
+开始处理视频: video_Dumbell_spider_curl_Camera_R250_Z200_A240.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Dumbell_spider_curl_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Z-Press_Camera_R250_Z200_A300.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/8)
+警告: 视频 video_Z-Press_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Standing_Smith_Machine_Shrugs_Camera_R250_Z200_A270.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/8)
+警告: 视频 video_Standing_Smith_Machine_Shrugs_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_Low_Bar_Squat_Camera_R250_Z200_A0.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Barbell_Low_Bar_Squat_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_Side_Step_Up_Camera_R250_Z200_A0.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 100.00% (19/19)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: Barbell
+特征数据: {
+  "equipment": "barbell",
+  "arm": {
+    "position": "down",
+    "state": "bent"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "straight"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Barbell_Side_Step_Up_Camera_R250_Z200_A0_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Barbell_Side_Step_Up_Camera_R250_Z200_A0_features.mp4
+
+开始处理视频: video_Bulgarian_Split_Squat_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/22)
+警告: 视频 video_Bulgarian_Split_Squat_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Traps_Stretch_-1_Camera_R250_Z200_A0.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/12)
+警告: 视频 video_Traps_Stretch_-1_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Side_Lunges_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/20)
+警告: 视频 video_Side_Lunges_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Bicep_Stretch_-3_Camera_R250_Z200_A240.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/30)
+警告: 视频 video_Bicep_Stretch_-3_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbell_Thruster_Camera_R250_Z200_A90.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 81.82% (9/11)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbell_Thruster_Camera_R250_Z200_A90_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbell_Thruster_Camera_R250_Z200_A90_features.mp4
+
+开始处理视频: video_Barbell_Long_Landmine_Row_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/7)
+警告: 视频 video_Barbell_Long_Landmine_Row_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Cable_Hamstring_Curl_Camera_R250_Z200_A240.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 100.00% (12/12)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "bent"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "straight"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Cable_Hamstring_Curl_Camera_R250_Z200_A240_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Cable_Hamstring_Curl_Camera_R250_Z200_A240_features.mp4
+
+开始处理视频: video_Dumbbell_Decline_Single_Arm_Bench_Press_Camera_R250_Z200_A240.mp4
+检测到的设备: Kettlebell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/11)
+警告: 视频 video_Dumbbell_Decline_Single_Arm_Bench_Press_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Cable_Glute_Kickback_Camera_R250_Z200_A240.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 100.00% (12/12)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "bent"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "straight"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Cable_Glute_Kickback_Camera_R250_Z200_A240_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Cable_Glute_Kickback_Camera_R250_Z200_A240_features.mp4
+
+开始处理视频: video_Dumbbell_Shoulder_Extension_Single_Arm_Camera_R250_Z200_A240.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 100.00% (11/11)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "straight"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "bent"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbbell_Shoulder_Extension_Single_Arm_Camera_R250_Z200_A240_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbbell_Shoulder_Extension_Single_Arm_Camera_R250_Z200_A240_features.mp4
+
+开始处理视频: video_Dumbbell_Alternating_Pendlay_Row_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/14)
+警告: 视频 video_Dumbbell_Alternating_Pendlay_Row_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Elbow_Side_Plank_Dumbbells_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/11)
+警告: 视频 video_Elbow_Side_Plank_Dumbbells_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Band_Horizontal_Shrug_Camera_R250_Z200_A0.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/8)
+警告: 视频 video_Band_Horizontal_Shrug_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Ball_Hamstring_Curl_Camera_R250_Z200_A90.mp4
+检测到的设备: Ball
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Ball_Hamstring_Curl_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Cable_Hamstring_Curl_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/12)
+警告: 视频 video_Cable_Hamstring_Curl_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Chin_Ups_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Chin_Ups_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Abdominals_Stretch_2-2_Camera_R250_Z200_A270.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/17)
+警告: 视频 video_Abdominals_Stretch_2-2_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Lats_Stretch_-3_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/12)
+警告: 视频 video_Lats_Stretch_-3_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_Bench_Press_2_Camera_R250_Z200_A240.mp4
+检测到的设备: Kettlebell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/7)
+警告: 视频 video_Barbell_Bench_Press_2_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Push_Press_Camera_R250_Z200_A150.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Push_Press_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Band_Single_Arm_Pec_Fly_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/7)
+警告: 视频 video_Band_Single_Arm_Pec_Fly_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Goblet_Bulgarian_Split_Squat_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/22)
+警告: 视频 video_Dumbbell_Goblet_Bulgarian_Split_Squat_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_Pause_Box_Squat_Camera_R250_Z200_A0.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Barbell_Pause_Box_Squat_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Cable_Wood_Chopper_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/8)
+警告: 视频 video_Cable_Wood_Chopper_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Machine_Standing_Calf_Raises_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Machine_Standing_Calf_Raises_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Side_Lunges_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/20)
+警告: 视频 video_Side_Lunges_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Chest_Fly_Camera_R250_Z200_A150.mp4
+检测到的设备: Kettlebell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Dumbbell_Chest_Fly_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Rollouts_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/12)
+警告: 视频 video_Rollouts_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Inverted_Row_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Inverted_Row_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Band_Curl_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/7)
+警告: 视频 video_Band_Curl_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Row_Bilateral_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Dumbbell_Row_Bilateral_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Shoulders_Stretch_-4_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/30)
+警告: 视频 video_Shoulders_Stretch_-4_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_Hip_Thrust_Camera_R250_Z200_A240.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Barbell_Hip_Thrust_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Offset_Squat_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/11)
+警告: 视频 video_Offset_Squat_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Single_Leg_Deadlift_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 81.82% (18/22)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Single_Leg_Deadlift_Camera_R250_Z200_A90_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Single_Leg_Deadlift_Camera_R250_Z200_A90_features.mp4
+
+开始处理视频: video_Z-Press_Camera_R250_Z200_A90.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/8)
+警告: 视频 video_Z-Press_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Band_Face_Pull_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/8)
+警告: 视频 video_Band_Face_Pull_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_Step_Up_Balance_Camera_R250_Z200_A0.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 97.22% (35/36)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 30 调试信息:
+设备检测结果: Barbell
+特征数据: {
+  "equipment": "barbell",
+  "arm": {
+    "position": "down",
+    "state": "bent"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "straight"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Barbell_Step_Up_Balance_Camera_R250_Z200_A0_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Barbell_Step_Up_Balance_Camera_R250_Z200_A0_features.mp4
+
+开始处理视频: video_Glutes_Stretch_-1_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/16)
+警告: 视频 video_Glutes_Stretch_-1_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Larsen_Bench_Press_Camera_R250_Z200_A240.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Larsen_Bench_Press_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Kettlebell_Single_Leg_Deadlift_Camera_R250_Z200_A300.mp4
+检测到的设备: Kettlebell
+收集关节位置数据...
+
+有效帧率: 100.00% (8/8)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: Kettlebell
+特征数据: {
+  "equipment": "kettlebell",
+  "arm": {
+    "position": "down",
+    "state": "straight"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "straight"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Kettlebell_Single_Leg_Deadlift_Camera_R250_Z200_A300_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Kettlebell_Single_Leg_Deadlift_Camera_R250_Z200_A300_features.mp4
+
+开始处理视频: video_Cable_Overhead_Tricep_Extension_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Cable_Overhead_Tricep_Extension_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Decline_Neutral_Bench_Press_Camera_R250_Z200_A150.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Decline_Neutral_Bench_Press_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Kettlebell_Wrist_Extension_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Kettlebell_Wrist_Extension_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Crunches_Camera_R250_Z200_A300.mp4
+检测到的设备: Kettlebell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/8)
+警告: 视频 video_Crunches_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Situp_with_Kettlebells__Camera_R250_Z200_A90.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/14)
+警告: 视频 video_Situp_with_Kettlebells__Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Calf_Jump_Camera_R250_Z200_A270.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/3)
+警告: 视频 video_Calf_Jump_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Cable_Calve_Raise_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Cable_Calve_Raise_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Lower_back_Stretch_-1_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/21)
+警告: 视频 video_Lower_back_Stretch_-1_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Assisted_Bulgarian_Split_Squat_Camera_R250_Z200_A210.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 100.00% (68/68)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "bent"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "bent"
+  }
+}
+
+Frame 30 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "bent"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "bent"
+  }
+}
+
+Frame 60 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "bent"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "straight"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Assisted_Bulgarian_Split_Squat_Camera_R250_Z200_A210_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Assisted_Bulgarian_Split_Squat_Camera_R250_Z200_A210_features.mp4
+
+开始处理视频: video_Barbell_Overhead_Tricep_Extension_Camera_R250_Z200_A240.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/8)
+警告: 视频 video_Barbell_Overhead_Tricep_Extension_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Single_Legged_Romanian_Deadlifts_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/19)
+警告: 视频 video_Single_Legged_Romanian_Deadlifts_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Figure_Four_Hip_Thrust_Camera_R250_Z200_A240.mp4
+检测到的设备: Kettlebell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Dumbbell_Figure_Four_Hip_Thrust_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Heels_Up_Goblet_Squat_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/7)
+警告: 视频 video_Heels_Up_Goblet_Squat_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Single_Arm_Neutral_Overhead_Press_Camera_R250_Z200_A150.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/26)
+警告: 视频 video_Single_Arm_Neutral_Overhead_Press_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Renegade_Row_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/12)
+警告: 视频 video_Dumbbell_Renegade_Row_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Decline_Guillotine_Bench_Press_Camera_R250_Z200_A90.mp4
+检测到的设备: Kettlebell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/11)
+警告: 视频 video_Dumbbell_Decline_Guillotine_Bench_Press_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_Pronated_Pendlay_Row_Camera_R250_Z200_A270.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/7)
+警告: 视频 video_Barbell_Pronated_Pendlay_Row_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Quads_Stretch_-4_Camera_R250_Z200_A240.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/15)
+警告: 视频 video_Quads_Stretch_-4_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_Reverse_Curl_Camera_R250_Z200_A300.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/7)
+警告: 视频 video_Barbell_Reverse_Curl_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Lats_Stretch_-3_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 91.67% (11/12)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Lats_Stretch_-3_Camera_R250_Z200_A300_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Lats_Stretch_-3_Camera_R250_Z200_A300_features.mp4
+
+开始处理视频: video_Cable_Hip_Abduction_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/8)
+警告: 视频 video_Cable_Hip_Abduction_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_Silverback_Shrug-‌bend_Camera_R250_Z200_A90.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/8)
+警告: 视频 video_Barbell_Silverback_Shrug-‌bend_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Twisting_Curl_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/7)
+警告: 视频 video_Dumbbell_Twisting_Curl_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Band_Calf_Raise_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Band_Calf_Raise_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Cable_Standing_Crunch_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 55.56% (5/9)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Cable_Standing_Crunch_Camera_R250_Z200_A150_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Cable_Standing_Crunch_Camera_R250_Z200_A150_features.mp4
+
+开始处理视频: video_Cable_Bayesian_Curl_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 100.00% (7/7)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "straight"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "straight"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Cable_Bayesian_Curl_Camera_R250_Z200_A90_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Cable_Bayesian_Curl_Camera_R250_Z200_A90_features.mp4
+
+开始处理视频: video_Barbell_Zercher_Good_Morning_Camera_R250_Z200_A150.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 81.82% (9/11)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Barbell_Zercher_Good_Morning_Camera_R250_Z200_A150_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Barbell_Zercher_Good_Morning_Camera_R250_Z200_A150_features.mp4
+
+开始处理视频: video_Goblet_Lateral_Lunge_Camera_R250_Z200_A240.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 52.17% (12/23)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Goblet_Lateral_Lunge_Camera_R250_Z200_A240_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Goblet_Lateral_Lunge_Camera_R250_Z200_A240_features.mp4
+
+开始处理视频: video_Shoulders_Stretch_-2_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/21)
+警告: 视频 video_Shoulders_Stretch_-2_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Bodyweight_Split_Squat_Camera_R250_Z200_A240.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 96.67% (29/30)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Bodyweight_Split_Squat_Camera_R250_Z200_A240_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Bodyweight_Split_Squat_Camera_R250_Z200_A240_features.mp4
+
+开始处理视频: video_Barbell_Zercher_Good_Morning_Camera_R250_Z200_A90.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/11)
+警告: 视频 video_Barbell_Zercher_Good_Morning_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Band_Pull_Apart_Camera_R250_Z200_A270.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Band_Pull_Apart_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Kettlebell_Long_Lever_Lateral_Raise_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/20)
+警告: 视频 video_Kettlebell_Long_Lever_Lateral_Raise_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Goblet_Reverse_Lunge_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 94.74% (18/19)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Goblet_Reverse_Lunge_Camera_R250_Z200_A300_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Goblet_Reverse_Lunge_Camera_R250_Z200_A300_features.mp4
+
+开始处理视频: video_Barbell_Close_Grip_Bench_Press_Camera_R250_Z200_A270.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/12)
+警告: 视频 video_Barbell_Close_Grip_Bench_Press_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Band_Face_Pull_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/8)
+警告: 视频 video_Band_Face_Pull_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Bulgarian_Split_Squat_(body_weight)_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/22)
+警告: 视频 video_Bulgarian_Split_Squat_(body_weight)_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Hamstrings_Stretch_-4_Camera_R250_Z200_A90.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/13)
+警告: 视频 video_Hamstrings_Stretch_-4_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Kettlebell_Russian_Twist_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/15)
+警告: 视频 video_Kettlebell_Russian_Twist_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_Forward_Lunge_Camera_R250_Z200_A270.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 20.00% (3/15)
+警告: 视频 video_Barbell_Forward_Lunge_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Reverse_Curl_Camera_R250_Z200_A270.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/7)
+警告: 视频 video_Dumbbell_Reverse_Curl_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Forward_Lunge_Camera_R250_Z200_A240.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 91.67% (22/24)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Forward_Lunge_Camera_R250_Z200_A240_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Forward_Lunge_Camera_R250_Z200_A240_features.mp4
+
+开始处理视频: video_Bodyweight_Squat_Camera_R250_Z200_A240.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Bodyweight_Squat_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Kettlebell_Skull_Crusher_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/8)
+警告: 视频 video_Kettlebell_Skull_Crusher_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Cable_Hip_Abduction_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/8)
+警告: 视频 video_Cable_Hip_Abduction_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_Curl_Camera_R250_Z200_A270.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/7)
+警告: 视频 video_Barbell_Curl_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Spoto_Press2_Camera_R250_Z200_A300.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Spoto_Press2_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Side_Lunges_Camera_R250_Z200_A150.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 65.00% (13/20)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: Dumbell
+特征数据: {
+  "equipment": "dumbell",
+  "arm": {
+    "position": "down",
+    "state": "bent"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "straight"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Side_Lunges_Camera_R250_Z200_A150_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Side_Lunges_Camera_R250_Z200_A150_features.mp4
+
+开始处理视频: video_Dumbell_Laying_30_Degree_Shrug_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/7)
+警告: 视频 video_Dumbell_Laying_30_Degree_Shrug_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Kettlebell_Wood_Chopper_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/8)
+警告: 视频 video_Kettlebell_Wood_Chopper_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Kettlebell_Shoulder_extention_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 100.00% (17/17)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "straight"
+  },
+  "body": {
+    "position": "bent"
+  },
+  "leg": {
+    "state": "bent"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Kettlebell_Shoulder_extention_Camera_R250_Z200_A0_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Kettlebell_Shoulder_extention_Camera_R250_Z200_A0_features.mp4
+
+开始处理视频: video_Neutral_Alternating_Overhead_Press_Camera_R250_Z200_A240.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 100.00% (26/26)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: Dumbell
+特征数据: {
+  "equipment": "dumbell",
+  "arm": {
+    "position": "down",
+    "state": "bent"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "bent"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Neutral_Alternating_Overhead_Press_Camera_R250_Z200_A240_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Neutral_Alternating_Overhead_Press_Camera_R250_Z200_A240_features.mp4
+
+开始处理视频: video_Forearms_Stretch_-2_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/12)
+警告: 视频 video_Forearms_Stretch_-2_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Seated_Overhead_Press_Camera_R250_Z200_A270.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Dumbbell_Seated_Overhead_Press_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Glute_Bridge_Camera_R250_Z200_A240.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Dumbbell_Glute_Bridge_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Traps_mid_back_Stretch_-1_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 100.00% (21/21)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "straight"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "straight"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Traps_mid_back_Stretch_-1_Camera_R250_Z200_A300_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Traps_mid_back_Stretch_-1_Camera_R250_Z200_A300_features.mp4
+
+开始处理视频: video_Barbell_Overhead_Press_Camera_R250_Z200_A270.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Barbell_Overhead_Press_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Single_Arm_Row_Knee_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 75.00% (6/8)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbbell_Single_Arm_Row_Knee_Camera_R250_Z200_A150_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbbell_Single_Arm_Row_Knee_Camera_R250_Z200_A150_features.mp4
+
+开始处理视频: video_Dumbbell_Russian_Twist_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/20)
+警告: 视频 video_Dumbbell_Russian_Twist_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Incline_Shrug_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/7)
+警告: 视频 video_Incline_Shrug_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_Zercher_Good_Morning_Camera_R250_Z200_A300.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 72.73% (8/11)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Barbell_Zercher_Good_Morning_Camera_R250_Z200_A300_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Barbell_Zercher_Good_Morning_Camera_R250_Z200_A300_features.mp4
+
+开始处理视频: video_Barbell_Silverback_Shrug_Camera_R250_Z200_A270.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Barbell_Silverback_Shrug_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Single_Arm_Row__Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 100.00% (8/8)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "straight"
+  },
+  "body": {
+    "position": "bent"
+  },
+  "leg": {
+    "state": "bent"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbbell_Single_Arm_Row__Camera_R250_Z200_A0_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbbell_Single_Arm_Row__Camera_R250_Z200_A0_features.mp4
+
+开始处理视频: video_Cable_Goblet_Squat_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/11)
+警告: 视频 video_Cable_Goblet_Squat_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Cable_Pec_Fly_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 80.00% (8/10)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Cable_Pec_Fly_Camera_R250_Z200_A0_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Cable_Pec_Fly_Camera_R250_Z200_A0_features.mp4
+
+开始处理视频: video_Calves_Stretch_-3_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/13)
+警告: 视频 video_Calves_Stretch_-3_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_Toes_Up_Calf_Raise_Camera_R250_Z200_A240.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Barbell_Toes_Up_Calf_Raise_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_High_Bar_Good_Morning_Camera_R250_Z200_A0.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 81.82% (9/11)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Barbell_High_Bar_Good_Morning_Camera_R250_Z200_A0_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Barbell_High_Bar_Good_Morning_Camera_R250_Z200_A0_features.mp4
+
+开始处理视频: video_Quads_Stretch_-3_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/16)
+警告: 视频 video_Quads_Stretch_-3_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Heels_Up_Squat_-_Bodyweight_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Heels_Up_Squat_-_Bodyweight_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Band_Calf_Raise_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Band_Calf_Raise_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Swing_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/5)
+警告: 视频 video_Swing_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_Upright_Row_Camera_R250_Z200_A240.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Barbell_Upright_Row_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Overhead_Tricep_Extension_Camera_R250_Z200_A300.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Dumbbell_Overhead_Tricep_Extension_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Assisted_Bulgarian_Split_Squat_Camera_R250_Z200_A330.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 100.00% (68/68)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "bent"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "bent"
+  }
+}
+
+Frame 30 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "bent"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "bent"
+  }
+}
+
+Frame 60 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "bent"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "straight"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Assisted_Bulgarian_Split_Squat_Camera_R250_Z200_A330_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Assisted_Bulgarian_Split_Squat_Camera_R250_Z200_A330_features.mp4
+
+开始处理视频: video_Spoto_Press2_Camera_R250_Z200_A270.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Spoto_Press2_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_Zercher_Squat_Camera_R250_Z200_A90.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 81.82% (9/11)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Barbell_Zercher_Squat_Camera_R250_Z200_A90_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Barbell_Zercher_Squat_Camera_R250_Z200_A90_features.mp4
+
+开始处理视频: video_Kettlebell_shrugs_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/7)
+警告: 视频 video_Kettlebell_shrugs_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Push_Press_Camera_R250_Z200_A300.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Push_Press_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Kettlebell_Single_Leg_Calf_Raises_Camera_R250_Z200_A240.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 100.00% (9/9)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "straight"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "straight"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Kettlebell_Single_Leg_Calf_Raises_Camera_R250_Z200_A240_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Kettlebell_Single_Leg_Calf_Raises_Camera_R250_Z200_A240_features.mp4
+
+开始处理视频: video_Windmill_Camera_R250_Z200_A150.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/11)
+警告: 视频 video_Windmill_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Front_Rack_Squat_Camera_R250_Z200_A90.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Front_Rack_Squat_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Cable_Calve_Raise_Camera_R250_Z200_A240.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Cable_Calve_Raise_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_Lateral_Lunge_Camera_R250_Z200_A240.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 82.61% (19/23)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Barbell_Lateral_Lunge_Camera_R250_Z200_A240_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Barbell_Lateral_Lunge_Camera_R250_Z200_A240_features.mp4
+
+开始处理视频: video_Single_Arm_Press_Camera_R250_Z200_A90.mp4
+检测到的设备: Kettlebell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/13)
+警告: 视频 video_Single_Arm_Press_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Leg_Extension_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 75.00% (6/8)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "bent"
+  },
+  "body": {
+    "position": "bent"
+  },
+  "leg": {
+    "state": "bent"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Leg_Extension_Camera_R250_Z200_A0_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Leg_Extension_Camera_R250_Z200_A0_features.mp4
+
+开始处理视频: video_Kettlebell_Single_Leg_Glute_Bridge_Camera_R250_Z200_A240.mp4
+检测到的设备: Kettlebell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/30)
+警告: 视频 video_Kettlebell_Single_Leg_Glute_Bridge_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Single_Arm_Overhead_Tricep_Extension_Camera_R250_Z200_A300.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/18)
+警告: 视频 video_Single_Arm_Overhead_Tricep_Extension_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_Front_Rack_Step_Up_Camera_R250_Z200_A90.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/23)
+警告: 视频 video_Barbell_Front_Rack_Step_Up_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Rollouts_Camera_R250_Z200_A240.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 75.00% (9/12)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Rollouts_Camera_R250_Z200_A240_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Rollouts_Camera_R250_Z200_A240_features.mp4
+
+开始处理视频: video_Barbell_Landmine_Side_Bend_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/8)
+警告: 视频 video_Barbell_Landmine_Side_Bend_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_Bench_Press_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 100.00% (7/7)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "straight"
+  },
+  "body": {
+    "position": "bent"
+  },
+  "leg": {
+    "state": "straight"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Barbell_Bench_Press_Camera_R250_Z200_A150_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Barbell_Bench_Press_Camera_R250_Z200_A150_features.mp4
+
+开始处理视频: video_Barbell_Bench_Press_Camera_R250_Z200_A270.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/7)
+警告: 视频 video_Barbell_Bench_Press_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Band_Front_Raise_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 75.00% (6/8)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Band_Front_Raise_Camera_R250_Z200_A270_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Band_Front_Raise_Camera_R250_Z200_A270_features.mp4
+
+开始处理视频: video_Kettlebell_Long_Lever_Lateral_Raise_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/20)
+警告: 视频 video_Kettlebell_Long_Lever_Lateral_Raise_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_Tap_Pause_Squat_Camera_R250_Z200_A90.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 80.00% (8/10)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Barbell_Tap_Pause_Squat_Camera_R250_Z200_A90_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Barbell_Tap_Pause_Squat_Camera_R250_Z200_A90_features.mp4
+
+开始处理视频: video_Calf_Jump_Camera_R250_Z200_A150.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/3)
+警告: 视频 video_Calf_Jump_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Kettlebell_Single_Arm_Lateral_Raise_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/20)
+警告: 视频 video_Kettlebell_Single_Arm_Lateral_Raise_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Laying_Reverse_Fly_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Dumbbell_Laying_Reverse_Fly_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Calves_Stretch_-1_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/48)
+警告: 视频 video_Calves_Stretch_-1_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_situp_handsup_Camera_R250_Z200_A90.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Dumbbell_situp_handsup_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Band_Overhead_Tricep_Extension_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Band_Overhead_Tricep_Extension_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Kettlebell_Reverse_Lunge_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 6.67% (1/15)
+警告: 视频 video_Kettlebell_Reverse_Lunge_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Floor_Press_Camera_R250_Z200_A270.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/12)
+警告: 视频 video_Floor_Press_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Situp_with_Kettlebells__Camera_R250_Z200_A240.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/14)
+警告: 视频 video_Situp_with_Kettlebells__Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Chest_Stretch_-1_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Chest_Stretch_-1_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Internally_Rotated_Chest_Fly_Camera_R250_Z200_A90.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/14)
+警告: 视频 video_Internally_Rotated_Chest_Fly_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_LegPress_Camera_R250_Z200_A90.mp4
+检测到的设备: Kettlebell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/14)
+警告: 视频 video_LegPress_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Seated_Cable_Row_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 70.00% (7/10)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Seated_Cable_Row_Camera_R250_Z200_A150_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Seated_Cable_Row_Camera_R250_Z200_A150_features.mp4
+
+开始处理视频: video_Kettlebell_Single_Leg_Calf_Raises_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 100.00% (9/9)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "straight"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "bent"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Kettlebell_Single_Leg_Calf_Raises_Camera_R250_Z200_A0_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Kettlebell_Single_Leg_Calf_Raises_Camera_R250_Z200_A0_features.mp4
+
+开始处理视频: video_Quads_Stretch_-1_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/16)
+警告: 视频 video_Quads_Stretch_-1_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Heels_Up_Back_Squat_Camera_R250_Z200_A300.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 90.00% (9/10)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Heels_Up_Back_Squat_Camera_R250_Z200_A300_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Heels_Up_Back_Squat_Camera_R250_Z200_A300_features.mp4
+
+开始处理视频: video_Decline_Alternating_Single_Arm_Press_Camera_R250_Z200_A300.mp4
+检测到的设备: Kettlebell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/20)
+警告: 视频 video_Decline_Alternating_Single_Arm_Press_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Bulgarian_Split_Squat_(body_weight)_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 54.55% (12/22)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Bulgarian_Split_Squat_(body_weight)_Camera_R250_Z200_A300_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Bulgarian_Split_Squat_(body_weight)_Camera_R250_Z200_A300_features.mp4
+
+开始处理视频: video_Elbow_Side_Plank_Dumbbells_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/11)
+警告: 视频 video_Elbow_Side_Plank_Dumbbells_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbell_Silverback_Shrug_Camera_R250_Z200_A0.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/7)
+警告: 视频 video_Dumbell_Silverback_Shrug_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Calf_Raise_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 80.00% (8/10)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbbell_Calf_Raise_Camera_R250_Z200_A270_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbbell_Calf_Raise_Camera_R250_Z200_A270_features.mp4
+
+开始处理视频: video_Dumbbell_Wrist_Curl_(hand_palm_upside)_Camera_R250_Z200_A270.mp4
+检测到的设备: Kettlebell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/8)
+警告: 视频 video_Dumbbell_Wrist_Curl_(hand_palm_upside)_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Row_Bilateral_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Dumbbell_Row_Bilateral_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Abdominals_Stretch_-2_Camera_R250_Z200_A300.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 94.12% (16/17)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Abdominals_Stretch_-2_Camera_R250_Z200_A300_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Abdominals_Stretch_-2_Camera_R250_Z200_A300_features.mp4
+
+开始处理视频: video_Band_Overhead_Press_Camera_R250_Z200_A300.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/13)
+警告: 视频 video_Band_Overhead_Press_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Triceps_Stretch_-2_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/18)
+警告: 视频 video_Triceps_Stretch_-2_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Front_Rack_Pause_Squat_Camera_R250_Z200_A240.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Dumbbell_Front_Rack_Pause_Squat_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Calf_Raises_Camera_R250_Z200_A150.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Calf_Raises_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Decline_Skullcrusher_Camera_R250_Z200_A150.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Dumbbell_Decline_Skullcrusher_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Side_Plank_Reach_Through_Bodyweight_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/25)
+警告: 视频 video_Side_Plank_Reach_Through_Bodyweight_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Laying_Reverse_Fly_Internally_Rotated_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Laying_Reverse_Fly_Internally_Rotated_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Bodyweight_Hollow_Hold_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/7)
+警告: 视频 video_Bodyweight_Hollow_Hold_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Bench_Press_2_Camera_R250_Z200_A150.mp4
+检测到的设备: Kettlebell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Dumbbell_Bench_Press_2_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell__Bench_Press_Camera_R250_Z200_A150.mp4
+检测到的设备: Kettlebell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/11)
+警告: 视频 video_Dumbbell__Bench_Press_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Decline_Guillotine_Bench_Press_Camera_R250_Z200_A270.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/11)
+警告: 视频 video_Dumbbell_Decline_Guillotine_Bench_Press_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Assisted_Bulgarian_Split_Squat_Camera_R250_Z200_A60.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 94.12% (64/68)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 30 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "straight"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "straight"
+  }
+}
+
+Frame 60 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "straight"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "straight"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Assisted_Bulgarian_Split_Squat_Camera_R250_Z200_A60_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Assisted_Bulgarian_Split_Squat_Camera_R250_Z200_A60_features.mp4
+
+开始处理视频: video_Cable_Wood_Chopper_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/8)
+警告: 视频 video_Cable_Wood_Chopper_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Thruster_Camera_R250_Z200_A0.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/11)
+警告: 视频 video_Thruster_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Bodyweight_Squat_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Bodyweight_Squat_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Forearms_Stretch_-3_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/15)
+警告: 视频 video_Forearms_Stretch_-3_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Quads_Stretch_-2_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/24)
+警告: 视频 video_Quads_Stretch_-2_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Leg_Extension_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 100.00% (8/8)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "bent"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "straight"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Leg_Extension_Camera_R250_Z200_A270_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Leg_Extension_Camera_R250_Z200_A270_features.mp4
+
+开始处理视频: video_Machine_Pulldown_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Machine_Pulldown_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Neutral_Alternating_Overhead_Press_Camera_R250_Z200_A150.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/26)
+警告: 视频 video_Neutral_Alternating_Overhead_Press_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Shoulders_Stretch_-3_Camera_R250_Z200_A240.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/30)
+警告: 视频 video_Shoulders_Stretch_-3_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Band_Leg_Press_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/7)
+警告: 视频 video_Band_Leg_Press_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Goblet_Lateral_Lunge_Camera_R250_Z200_A300.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 95.65% (22/23)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: Dumbell
+特征数据: {
+  "equipment": "dumbell",
+  "arm": {
+    "position": "down",
+    "state": "bent"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "straight"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Goblet_Lateral_Lunge_Camera_R250_Z200_A300_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Goblet_Lateral_Lunge_Camera_R250_Z200_A300_features.mp4
+
+开始处理视频: video_Bicep_Stretch_-3_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 46.67% (14/30)
+警告: 视频 video_Bicep_Stretch_-3_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Coan_Deadlift_Camera_R250_Z200_A150.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Coan_Deadlift_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Kettlebell_shrugs_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/7)
+警告: 视频 video_Kettlebell_shrugs_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Cable_Skull_Crusher_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 100.00% (10/10)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "bent"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "straight"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Cable_Skull_Crusher_Camera_R250_Z200_A90_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Cable_Skull_Crusher_Camera_R250_Z200_A90_features.mp4
+
+开始处理视频: video_Kettlebell_Wrist_Curl_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Kettlebell_Wrist_Curl_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Side_Lunges_Camera_R250_Z200_A240.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 95.00% (19/20)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "bent"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "straight"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Side_Lunges_Camera_R250_Z200_A240_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Side_Lunges_Camera_R250_Z200_A240_features.mp4
+
+开始处理视频: video_Cable_Lateral_Raise_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Cable_Lateral_Raise_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Decline_Chest_Press_Camera_R250_Z200_A240.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Dumbbell_Decline_Chest_Press_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Chest_Stretch_-3_Camera_R250_Z200_A240.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/29)
+警告: 视频 video_Chest_Stretch_-3_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_Reverse_Curl_Camera_R250_Z200_A0.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/7)
+警告: 视频 video_Barbell_Reverse_Curl_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Incline_Barbell_Bench_Press_2_Camera_R250_Z200_A240.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 100.00% (10/10)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: Barbell
+特征数据: {
+  "equipment": "barbell",
+  "arm": {
+    "position": "down",
+    "state": "bent"
+  },
+  "body": {
+    "position": "bent"
+  },
+  "leg": {
+    "state": "bent"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Incline_Barbell_Bench_Press_2_Camera_R250_Z200_A240_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Incline_Barbell_Bench_Press_2_Camera_R250_Z200_A240_features.mp4
+
+开始处理视频: video_Biceps_Stretch_-4_Camera_R250_Z200_A240.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/14)
+警告: 视频 video_Biceps_Stretch_-4_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Cable_Calve_Raise_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Cable_Calve_Raise_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Standing_Arnold_Press_Camera_R250_Z200_A270.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/11)
+警告: 视频 video_Dumbbell_Standing_Arnold_Press_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Laying_Leg_Raises_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Laying_Leg_Raises_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Kettlebell_Calf_Raises_Camera_R250_Z200_A0.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Kettlebell_Calf_Raises_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Quads_Stretch_-3_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/16)
+警告: 视频 video_Quads_Stretch_-3_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Reverse_Curl_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/7)
+警告: 视频 video_Dumbbell_Reverse_Curl_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Lats_Stretch_-1_Camera_R250_Z200_A240.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Lats_Stretch_-1_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Kettlebell_Reverse_Lunge_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/15)
+警告: 视频 video_Kettlebell_Reverse_Lunge_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Kettlebell_Tate_Press_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/16)
+警告: 视频 video_Kettlebell_Tate_Press_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Machine_Cable_V_Bar_Push_Downs_Camera_R250_Z200_A240.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 100.00% (8/8)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "bent"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "straight"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Machine_Cable_V_Bar_Push_Downs_Camera_R250_Z200_A240_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Machine_Cable_V_Bar_Push_Downs_Camera_R250_Z200_A240_features.mp4
+
+开始处理视频: video_Kettlebell_Single_Arm_Row_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 100.00% (10/10)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "straight"
+  },
+  "body": {
+    "position": "bent"
+  },
+  "leg": {
+    "state": "bent"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Kettlebell_Single_Arm_Row_Camera_R250_Z200_A0_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Kettlebell_Single_Arm_Row_Camera_R250_Z200_A0_features.mp4
+
+开始处理视频: video_Dumbbell__Bench_Press_Camera_R250_Z200_A240.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 72.73% (8/11)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbbell__Bench_Press_Camera_R250_Z200_A240_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbbell__Bench_Press_Camera_R250_Z200_A240_features.mp4
+
+开始处理视频: video_Lowe_back_stretch_-4_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Lowe_back_stretch_-4_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_Meadows_Row_Camera_R250_Z200_A270.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/7)
+警告: 视频 video_Barbell_Meadows_Row_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Rear_Delt_Fly_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Dumbbell_Rear_Delt_Fly_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Bodyweight_-_Good_Morning_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/11)
+警告: 视频 video_Bodyweight_-_Good_Morning_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Single_Arm_Rear_Delt_Fly_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 68.42% (13/19)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Single_Arm_Rear_Delt_Fly_Camera_R250_Z200_A90_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Single_Arm_Rear_Delt_Fly_Camera_R250_Z200_A90_features.mp4
+
+开始处理视频: video_Dumbbell_Overhead_Tricep_Extension_Camera_R250_Z200_A0.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Dumbbell_Overhead_Tricep_Extension_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Quads_Stretch_-2_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/24)
+警告: 视频 video_Quads_Stretch_-2_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Bulgarian_Split_Squat_(body_weight)_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/22)
+警告: 视频 video_Bulgarian_Split_Squat_(body_weight)_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Alternating_Pendlay_Row_Camera_R250_Z200_A240.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/14)
+警告: 视频 video_Dumbbell_Alternating_Pendlay_Row_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Calf_Jump_Camera_R250_Z200_A240.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/3)
+警告: 视频 video_Calf_Jump_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Deadlift_Camera_R250_Z200_A300.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/13)
+警告: 视频 video_Deadlift_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Shoulders_Stretch_-4_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/30)
+警告: 视频 video_Shoulders_Stretch_-4_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Band_Lateral_Raise_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/8)
+警告: 视频 video_Band_Lateral_Raise_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Cable_Calve_Raise_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 100.00% (10/10)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "straight"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "straight"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Cable_Calve_Raise_Camera_R250_Z200_A300_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Cable_Calve_Raise_Camera_R250_Z200_A300_features.mp4
+
+开始处理视频: video_Dumbbell_Incline_Chest_Flys_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 100.00% (6/6)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "bent"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "straight"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbbell_Incline_Chest_Flys_Camera_R250_Z200_A270_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbbell_Incline_Chest_Flys_Camera_R250_Z200_A270_features.mp4
+
+开始处理视频: video_Triceps_Stretch_-1_Camera_R250_Z200_A90.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/21)
+警告: 视频 video_Triceps_Stretch_-1_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Quads_Stretch_-4_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/15)
+警告: 视频 video_Quads_Stretch_-4_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Band_Overhead_Tricep_Extension_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Band_Overhead_Tricep_Extension_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Windmill_Camera_R250_Z200_A270.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 90.91% (10/11)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Windmill_Camera_R250_Z200_A270_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Windmill_Camera_R250_Z200_A270_features.mp4
+
+开始处理视频: video_Band_Single_Arm_Pec_Fly_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/7)
+警告: 视频 video_Band_Single_Arm_Pec_Fly_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Cable_Cross_Pushdown_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Cable_Cross_Pushdown_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_Pronated_Pendlay_Row_Camera_R250_Z200_A240.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/7)
+警告: 视频 video_Barbell_Pronated_Pendlay_Row_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_Pause_Squat_Camera_R250_Z200_A90.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/8)
+警告: 视频 video_Barbell_Pause_Squat_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Signle_Leg_Hip_Thrust_Camera_R250_Z200_A270.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/29)
+警告: 视频 video_Signle_Leg_Hip_Thrust_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Rollouts_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/12)
+警告: 视频 video_Rollouts_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Triceps_Stretch_-2_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/18)
+警告: 视频 video_Triceps_Stretch_-2_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Figure_Four_Glute_Bridge]_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/8)
+警告: 视频 video_Dumbbell_Figure_Four_Glute_Bridge]_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Incline_Bench_Press_Camera_R250_Z200_A240.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 72.73% (8/11)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbbell_Incline_Bench_Press_Camera_R250_Z200_A240_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbbell_Incline_Bench_Press_Camera_R250_Z200_A240_features.mp4
+
+开始处理视频: video_Elbow_Side_Plank_Dumbbells_Camera_R250_Z200_A240.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/11)
+警告: 视频 video_Elbow_Side_Plank_Dumbbells_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Band_High_Hammer_Curl_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 100.00% (7/7)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "straight"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "straight"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Band_High_Hammer_Curl_Camera_R250_Z200_A0_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Band_High_Hammer_Curl_Camera_R250_Z200_A0_features.mp4
+
+开始处理视频: video_Kettlebell_Preacher_Curl_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/7)
+警告: 视频 video_Kettlebell_Preacher_Curl_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbell_kneeling_single_arm_row_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/8)
+警告: 视频 video_Dumbell_kneeling_single_arm_row_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_Close_Grip_Bench_Press_Camera_R250_Z200_A150.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/12)
+警告: 视频 video_Barbell_Close_Grip_Bench_Press_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_Close_Grip_Bench_Press_Camera_R250_Z200_A0.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/12)
+警告: 视频 video_Barbell_Close_Grip_Bench_Press_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Kettlebell_shrugs_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 42.86% (3/7)
+警告: 视频 video_Kettlebell_shrugs_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Side_Plank_Reach_Through_Bodyweight_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/25)
+警告: 视频 video_Side_Plank_Reach_Through_Bodyweight_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Bench_Dips_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 100.00% (7/7)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "bent"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "straight"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Bench_Dips_Camera_R250_Z200_A300_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Bench_Dips_Camera_R250_Z200_A300_features.mp4
+
+开始处理视频: video_Kettlebell_Calf_Raises_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Kettlebell_Calf_Raises_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Floor_Press_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/12)
+警告: 视频 video_Floor_Press_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Single_Arm_Preacher_Curl__Camera_R250_Z200_A240.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/7)
+警告: 视频 video_Dumbbell_Single_Arm_Preacher_Curl__Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Bench_Press_Camera_R250_Z200_A240.mp4
+检测到的设备: Kettlebell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Dumbbell_Bench_Press_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Abdominals_Stretch_-4_Camera_R250_Z200_A0.mp4
+检测到的设备: Kettlebell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/11)
+警告: 视频 video_Abdominals_Stretch_-4_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_High_Bar_Squat_Camera_R250_Z200_A0.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 81.82% (9/11)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Barbell_High_Bar_Squat_Camera_R250_Z200_A0_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Barbell_High_Bar_Squat_Camera_R250_Z200_A0_features.mp4
+
+开始处理视频: video_Barbell_Hip_Thrust_Camera_R250_Z200_A270.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Barbell_Hip_Thrust_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Front_Rack_Squat_Camera_R250_Z200_A300.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Front_Rack_Squat_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Kettlebell_Single_Arm_Row_Camera_R250_Z200_A270.mp4
+检测到的设备: Kettlebell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Kettlebell_Single_Arm_Row_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Single_Legged_Romanian_Deadlifts_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/19)
+警告: 视频 video_Single_Legged_Romanian_Deadlifts_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Assisted_Bulgarian_Split_Squat_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 100.00% (68/68)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "bent"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "bent"
+  }
+}
+
+Frame 30 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "bent"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "bent"
+  }
+}
+
+Frame 60 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "straight"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "straight"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Assisted_Bulgarian_Split_Squat_Camera_R250_Z200_A150_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Assisted_Bulgarian_Split_Squat_Camera_R250_Z200_A150_features.mp4
+
+开始处理视频: video_Bodyweight_Split_Squat_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/30)
+警告: 视频 video_Bodyweight_Split_Squat_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Goblet_Split_Squat_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/21)
+警告: 视频 video_Goblet_Split_Squat_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Guillotine_Bench_Press_Camera_R250_Z200_A90.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/11)
+警告: 视频 video_Dumbbell_Guillotine_Bench_Press_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_Landmine_Side_Bend_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/8)
+警告: 视频 video_Barbell_Landmine_Side_Bend_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_Silverback_Shrug_Camera_R250_Z200_A300.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Barbell_Silverback_Shrug_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Cable_Pallof_Press_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Cable_Pallof_Press_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Lats_Stretch_-1_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Lats_Stretch_-1_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Single_Arm_Neutral_Overhead_Press_Camera_R250_Z200_A90.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/26)
+警告: 视频 video_Single_Arm_Neutral_Overhead_Press_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Kettlebell_Concentration_Curl_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/7)
+警告: 视频 video_Kettlebell_Concentration_Curl_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbell_spider_curl_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Dumbell_spider_curl_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Bodyweight_Glute_Bridge_Camera_R250_Z200_A240.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 70.00% (7/10)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Bodyweight_Glute_Bridge_Camera_R250_Z200_A240_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Bodyweight_Glute_Bridge_Camera_R250_Z200_A240_features.mp4
+
+开始处理视频: video_Half_Kneeling_Wood_Chopper_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 100.00% (8/8)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "straight"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "bent"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Half_Kneeling_Wood_Chopper_Camera_R250_Z200_A270_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Half_Kneeling_Wood_Chopper_Camera_R250_Z200_A270_features.mp4
+
+开始处理视频: video_Kettlebell_Wrist_Extension_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Kettlebell_Wrist_Extension_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbell_Silverback_Shrug_Camera_R250_Z200_A270.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 100.00% (7/7)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: Dumbell
+特征数据: {
+  "equipment": "dumbell",
+  "arm": {
+    "position": "down",
+    "state": "straight"
+  },
+  "body": {
+    "position": "bent"
+  },
+  "leg": {
+    "state": "straight"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbell_Silverback_Shrug_Camera_R250_Z200_A270_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbell_Silverback_Shrug_Camera_R250_Z200_A270_features.mp4
+
+开始处理视频: video_Dumbbell_Staggered_Glute_Bridge_Camera_R250_Z200_A150.mp4
+检测到的设备: Kettlebell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Dumbbell_Staggered_Glute_Bridge_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Cable_Rear_Delt_Fly_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Cable_Rear_Delt_Fly_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Goblet_Good_Morning_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 72.73% (8/11)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbbell_Goblet_Good_Morning_Camera_R250_Z200_A150_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbbell_Goblet_Good_Morning_Camera_R250_Z200_A150_features.mp4
+
+开始处理视频: video_Kettlebell_Wrist_Extension_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Kettlebell_Wrist_Extension_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Neutral_Overhead_Press_Camera_R250_Z200_A240.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/11)
+警告: 视频 video_Neutral_Overhead_Press_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Hamstrings_Stretch_-1_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/30)
+警告: 视频 video_Hamstrings_Stretch_-1_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Kettlebell_Reverse_Lunge_Camera_R250_Z200_A150.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/15)
+警告: 视频 video_Kettlebell_Reverse_Lunge_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Cable_Lat_prayer_Camera_R250_Z200_A240.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Cable_Lat_prayer_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Cable_Overhead_Tricep_Extension_Camera_R250_Z200_A240.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Cable_Overhead_Tricep_Extension_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Tricep_kickback_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/8)
+警告: 视频 video_Tricep_kickback_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_kettlebell_pullover_Camera_R250_Z200_A90.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_kettlebell_pullover_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Decline_Neutral_Bench_Press_Camera_R250_Z200_A90.mp4
+检测到的设备: Kettlebell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Decline_Neutral_Bench_Press_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_Suitcase_Deadlift_Camera_R250_Z200_A270.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Barbell_Suitcase_Deadlift_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_Shrug_Camera_R250_Z200_A300.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/8)
+警告: 视频 video_Barbell_Shrug_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Single_Leg_Deadlift_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/22)
+警告: 视频 video_Single_Leg_Deadlift_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Machine_Silverback_Shrug_Straight_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Machine_Silverback_Shrug_Straight_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_incline_hammer_curl_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 100.00% (10/10)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "straight"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "bent"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbbell_incline_hammer_curl_Camera_R250_Z200_A300_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbbell_incline_hammer_curl_Camera_R250_Z200_A300_features.mp4
+
+开始处理视频: video_Single_Arm_Overhead_Press_Camera_R250_Z200_A240.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 100.00% (20/20)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: Dumbell
+特征数据: {
+  "equipment": "dumbell",
+  "arm": {
+    "position": "down",
+    "state": "bent"
+  },
+  "body": {
+    "position": "upright"
+  },
+  "leg": {
+    "state": "straight"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Single_Arm_Overhead_Press_Camera_R250_Z200_A240_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Single_Arm_Overhead_Press_Camera_R250_Z200_A240_features.mp4
+
+开始处理视频: video_Barbell_Bulgarian_Split_Squat_Camera_R250_Z200_A0.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 34.78% (8/23)
+警告: 视频 video_Barbell_Bulgarian_Split_Squat_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Heels_Up_Back_Squat_Camera_R250_Z200_A240.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Heels_Up_Back_Squat_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Offset_Squat_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/11)
+警告: 视频 video_Offset_Squat_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_Curtsy_Lunge_Camera_R250_Z200_A0.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 38.10% (8/21)
+警告: 视频 video_Barbell_Curtsy_Lunge_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_Silverback_Shrug-‌bend_Camera_R250_Z200_A270.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/8)
+警告: 视频 video_Barbell_Silverback_Shrug-‌bend_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Abdominals_Stretch_-3_Camera_R250_Z200_A150.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/31)
+警告: 视频 video_Abdominals_Stretch_-3_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Kettlebell_Goblet_Good_Morning_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/11)
+警告: 视频 video_Kettlebell_Goblet_Good_Morning_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Lateral_Raise_Camera_R250_Z200_A0.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/9)
+警告: 视频 video_Dumbbell_Lateral_Raise_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_Front_Rack_Step_Up_Camera_R250_Z200_A150.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/23)
+警告: 视频 video_Barbell_Front_Rack_Step_Up_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Bodyweight_Single_Leg_Hip_Thrust_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/30)
+警告: 视频 video_Bodyweight_Single_Leg_Hip_Thrust_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_incline_hammer_curl_Camera_R250_Z200_A90.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Dumbbell_incline_hammer_curl_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Chin_Ups-3_Camera_R250_Z200_A90.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/7)
+警告: 视频 video_Chin_Ups-3_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Bosu_Ball_Single_Leg_Hip_Thrust_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/11)
+警告: 视频 video_Bosu_Ball_Single_Leg_Hip_Thrust_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Cable_Bayesian_Curl_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/7)
+警告: 视频 video_Cable_Bayesian_Curl_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Cable_Goblet_Squat_Camera_R250_Z200_A300.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/11)
+警告: 视频 video_Cable_Goblet_Squat_Camera_R250_Z200_A300.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Lower_back_Stretch_-2_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/39)
+警告: 视频 video_Lower_back_Stretch_-2_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Side_Plank_Up_Down_Dumbbells_Camera_R250_Z200_A240.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/11)
+警告: 视频 video_Side_Plank_Up_Down_Dumbbells_Camera_R250_Z200_A240.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbell_kneeling_single_arm_row_Camera_R250_Z200_A270.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 0.00% (0/8)
+警告: 视频 video_Dumbell_kneeling_single_arm_row_Camera_R250_Z200_A270.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Dumbbell_Incline_Chest_Flys_Camera_R250_Z200_A0.mp4
+检测到的设备: none
+收集关节位置数据...
+
+有效帧率: 100.00% (6/6)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+
+Frame 0 调试信息:
+设备检测结果: none
+特征数据: {
+  "equipment": "none",
+  "arm": {
+    "position": "down",
+    "state": "bent"
+  },
+  "body": {
+    "position": "bent"
+  },
+  "leg": {
+    "state": "bent"
+  }
+}
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbbell_Incline_Chest_Flys_Camera_R250_Z200_A0_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Dumbbell_Incline_Chest_Flys_Camera_R250_Z200_A0_features.mp4
+
+开始处理视频: video_Goblet_Forward_Lunge_Camera_R250_Z200_A240.mp4
+检测到的设备: Dumbell
+收集关节位置数据...
+
+有效帧率: 94.74% (18/19)
+应用Butterworth滤波...
+滤波处理出错，使用原始数据: Digital filter critical frequencies must be 0 < Wn < 1
+生成视频...
+已生成视频:
+滤波后的姿态视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Goblet_Forward_Lunge_Camera_R250_Z200_A240_filtered.mp4
+特征信息视频: /home/bizon/dong/RuleExtraction/Xiang_scripts/generate_video/Jan13_Z200_Videos/video_Goblet_Forward_Lunge_Camera_R250_Z200_A240_features.mp4
+
+开始处理视频: video_Kettlebell_Single_Leg_Glute_Bridge_Camera_R250_Z200_A150.mp4
+检测到的设备: Kettlebell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/30)
+警告: 视频 video_Kettlebell_Single_Leg_Glute_Bridge_Camera_R250_Z200_A150.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_Overhead_Tricep_Extension_Camera_R250_Z200_A0.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/8)
+警告: 视频 video_Barbell_Overhead_Tricep_Extension_Camera_R250_Z200_A0.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Barbell_Skullcrusher_Camera_R250_Z200_A90.mp4
+检测到的设备: Barbell
+收集关节位置数据...
+
+有效帧率: 0.00% (0/10)
+警告: 视频 video_Barbell_Skullcrusher_Camera_R250_Z200_A90.mp4 的有效识别帧太少，无法生成可靠的分析结果
+
+开始处理视频: video_Incline_Barbell_Bench_Press_Camera_R250_Z200_A270.mp4
+检测到的设备: Barbell
+收集关节位置数据...

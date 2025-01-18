@@ -11,12 +11,12 @@ import subprocess
 
 BASE_PATH = '/home/bizon/dong/RuleExtraction/Xiang_scripts'
 SRC_PATH = os.path.join(BASE_PATH, 'src')
-VIDEO_PATH = os.path.join(BASE_PATH, 'videos/jan12')
+VIDEO_PATH = os.path.join(BASE_PATH, 'videos/Jan13_Z200_Videos')
 YOLO_PATH = os.path.join(BASE_PATH, 'yolov7')
 YOLO_SCRIPT = os.path.join(YOLO_PATH, 'detect_revise.py')
 YOLO_WEIGHTS = os.path.join('/home/bizon/xiang/new_computer/', 'best.pt')
 EXERCISE_JSON = os.path.join(BASE_PATH, 'exercise_generate_最新.json')
-GENERATE_VIDEO_PATH = os.path.join(BASE_PATH, 'generate_video/jan12')
+GENERATE_VIDEO_PATH = os.path.join(BASE_PATH, 'generate_video/Jan13_Z200_Videos')
 
 def verify_and_import():
     """验证所需路径和导入必要模块"""
@@ -677,29 +677,32 @@ if __name__ == "__main__":
             print(f"创建输出目录: {GENERATE_VIDEO_PATH}")
         
         # 获取所有视频文件
-        video_files = [f for f in os.listdir(VIDEO_PATH) if f.endswith('.mp4')]
+        video_files = [f for f in os.listdir(VIDEO_PATH) if f.endswith('.mp4')] #change this
         print(f"\n找到 {len(video_files)} 个视频文件")
         
         # 处理所有视频
         successful = 0
         failed = 0
         skipped = 0
-        
+        failed_videos = []
+        skipped_videos = []
         for video in video_files:
             output_path = process_video_direct(video)
             if output_path:
                 successful += 1
             elif output_path is None and os.path.exists(os.path.join(GENERATE_VIDEO_PATH, f"processed_{video}")):
                 skipped += 1
+                skipped_videos.append(video)
             else:
                 failed += 1
+                failed_videos.append(video)
         
         print("\n处理完成!")
         print(f"成功: {successful}")
         print(f"失败: {failed}")
         print(f"跳过: {skipped}")
         print(f"输出目录: {GENERATE_VIDEO_PATH}")
-                
+        print(f"Failed Videos: {failed_videos}")        
     except Exception as e:
         print(f"程序出错: {str(e)}")
         import traceback
